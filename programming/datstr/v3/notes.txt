@@ -1,0 +1,5 @@
+combinations - itertools.combinations(nums,r)
+defaultdict - collections.defaultdict(list)
+groupby - itertools.groupby(s)
+return - ends the fun while break terminates the loop
+revPolNot - dont push all ints onto the stack 
