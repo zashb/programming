@@ -1,6 +1,7 @@
 import unittest
 import sys
 
+
 class MultiStack:
     def __init__(self, stacksize):
         self.numstacks = 1
