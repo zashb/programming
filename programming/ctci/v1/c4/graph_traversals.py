@@ -20,7 +20,7 @@ def dfs(g):
 
 def dfs_util(v, visited, g):
     visited[v] = True
-    print(v)
+    print(v, end=",")
     for i in g.graph[v]:
         if not visited[v]:
             dfs_util(i, visited, g)
@@ -32,7 +32,7 @@ def bfs(g, u):
     visited[u] = True
     while queue:
         u = queue.pop(0)
-        print(u)
+        print(u, end=",")
         for i in g.graph[u]:
             if not visited[i]:
                 queue.append(i)
