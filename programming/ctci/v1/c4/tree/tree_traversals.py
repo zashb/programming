@@ -90,3 +90,33 @@ class Test(unittest.TestCase):
     def test_postorder(self):
         print("\n postorder")
         get_postorder(self.root)
+
+
+def build_tree(inOrder, preOrder, inStrt, inEnd):
+    if (inStrt > inEnd):
+        return None
+    tNode_val = preOrder[build_tree.preIndex]
+    tNode = Node(tNode_val)
+    build_tree.preIndex += 1
+    if inStrt == inEnd:
+        return tNode
+    inIndex = search(inOrder, inStrt, inEnd, tNode_val)
+    tNode.left = build_tree(inOrder, preOrder, inStrt, inIndex - 1)
+    tNode.right = build_tree(inOrder, preOrder, inIndex + 1, inEnd)
+    return tNode
+
+
+def search(arr, start, end, value):
+    for i in range(start, end + 1):
+        if arr[i] == value:
+            return i
+
+
+class Test2(unittest.TestCase):
+    inOrder = ['D', 'B', 'E', 'A', 'F', 'C']
+    preOrder = ['A', 'B', 'D', 'E', 'C', 'F']
+    build_tree.preIndex = 0
+
+    def test_build_tree(self):
+        root = build_tree(self.inOrder, self.preOrder, 0, len(self.inOrder) - 1)
+        get_inorder(root)
