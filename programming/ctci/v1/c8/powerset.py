@@ -7,6 +7,11 @@ class MyTestCase(unittest.TestCase):
         actual = get_subsets(set, 0)
         print(actual)
 
+    def test_subsets2(self):
+        nums = [1, 2, 3]
+        actual = get_subsets2(nums)
+        print(actual)
+
 
 def get_subsets(setz, index):
     all_subsets = []
@@ -28,6 +33,19 @@ def get_subsets(setz, index):
             if value not in new_subset:
                 all_subsets.append(value)
     return all_subsets
+
+
+def get_subsets2(nums):
+    res = []
+    backtrack(nums, res, [], 0)
+    return res
+
+
+def backtrack(nums, res, temp, start):
+    res.append(temp)
+    for i in range(start, len(nums)):
+        if nums[i] not in temp:
+            backtrack(nums, res, temp + [nums[i]], i + 1)
 
 
 if __name__ == '__main__':
