@@ -22,9 +22,9 @@ def set_anagrams(strings):
     anagrams = {}
     for i in strings:
         word = "".join(sorted(i.lower()))
-        if word not in anagrams:
-            anagrams.setdefault(word, [])
-        anagrams[word].append(i)
+        # setdefault(key[, default])
+        # If key is in the dictionary, return its value. If not, insert key with a value of default and return default. default defaults to None.
+        anagrams.setdefault(word, []).append(i)
     return anagrams
 
 
