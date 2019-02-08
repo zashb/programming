@@ -16,16 +16,17 @@ class Test(unittest.TestCase):
 
 
 def pal_per(string):
+    """to be a permutation of a palindrome, a string can have no more than one character that is odd"""
     table = [0 for _ in range(ord('z') - ord('a') + 1)]
     counter_odd = 0
     string_lower = string.lower()
     for char in string_lower:
-        x = -1
+        table_idx = -1
         if ord('a') <= ord(char) <= ord('z'):
-            x = ord(char) - ord('a')
-        if x != -1:
-            table[x] += 1
-            if table[x] % 2 == 1:
+            table_idx = ord(char) - ord('a')
+        if table_idx != -1:
+            table[table_idx] += 1
+            if table[table_idx] % 2 == 1:
                 counter_odd += 1
             else:
                 counter_odd -= 1

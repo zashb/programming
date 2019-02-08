@@ -59,24 +59,28 @@ def one_edit_2(s1, s2):
     if abs(len(s1) - len(s2)) > 1:
         return False
     # get shorter and longer strings
-    first = s1 if len(s1) < len(s2) else s2
-    second = s2 if len(s1) < len(s2) else s1
-    idx1, idx2 = 0, 0
+    # shorter = s1 if len(s1) < len(s2) else s2
+    # longer = s2 if len(s1) < len(s2) else s1
+    if len(s1) < len(s2):
+        shorter, longer = s1, s2
+    else:
+        shorter, longer = s2, s1
+    shorter_idx, longer_idx = 0, 0
     found_difference = False
-    while idx2 < len(second) and idx1 < len(first):
-        if first[idx1] != second[idx2]:
+    while longer_idx < len(longer) and shorter_idx < len(shorter):
+        if shorter[shorter_idx] != longer[longer_idx]:
             # ensure that this is first found difference
             if found_difference:
                 return False
             found_difference = True
             # On replace, move shorter pointer
-            if len(first) == len(second):
-                idx1 += 1
+            if len(shorter) == len(longer):
+                shorter_idx += 1
         # If matching, move shorter pointer
         else:
-            idx1 += 1
+            shorter_idx += 1
         # Always move pointer for longer string
-        idx2 += 1
+        longer_idx += 1
     return True
 
 
