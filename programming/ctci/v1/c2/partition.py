@@ -16,7 +16,7 @@ class Test(unittest.TestCase):
 def partition(ll, x):
     current = ll.tail = ll.head
     while current:
-        nextNode = current.next
+        temp = current.next
         current.next = None
         if current.value < x:
             # current.next = ll.head
@@ -26,7 +26,7 @@ def partition(ll, x):
             # ll.tail.next = current
             # ll.tail = current
             ll.add(current.value)
-        current = nextNode
+        current = temp
     # Error check in case all nodes are less than x
     # if ll.tail.next is not None:
     #     ll.tail.next = None
