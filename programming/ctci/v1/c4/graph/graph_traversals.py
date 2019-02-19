@@ -27,9 +27,11 @@ def dfs_util(v, visited, g):
 
 
 def bfs(g, u):
+    """queue is edited while looping over it"""
     visited = [False] * g.numvertices
     queue = [u]
     visited[u] = True
+    # ideally queue[:]
     while queue:
         u = queue.pop(0)
         print(u, end=",")
@@ -40,6 +42,7 @@ def bfs(g, u):
 
 
 class Test(unittest.TestCase):
+    """if alphabet nodes are used, used ord()"""
     g = Graph(4)
     g.add_edge(0, 1)
     g.add_edge(0, 2)

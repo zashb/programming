@@ -31,12 +31,14 @@ def height(root):
 
 
 def get_level_order_efficient(root):
+    """queue is edited while iterating over"""
     if root is None:
         return None
     queue = [root]
+    # ideally queue[:]
     while queue:
-        print(queue[0].value),
         node = queue.pop(0)
+        print(node.value),
         if node.left is not None:
             queue.append(node.left)
         if node.right is not None:
