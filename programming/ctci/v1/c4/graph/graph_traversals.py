@@ -41,6 +41,29 @@ def bfs(g, u):
                 visited[i] = True
 
 
+def recursive_dfs(graph, start, visited=None):
+    if visited is None:
+        visited = set()
+    visited.add(start)
+    print(start, end=",")
+    for v in graph[start]:
+        if v not in visited:
+            recursive_dfs(graph, v, visited)
+
+
+# def recursive_topological_sort(graph, start, visited=None, stack=[]):
+#     # TODO : figure this out!!!
+#     if visited is None:
+#         visited = set()
+#     visited.add(start)
+#     print(start, end=",")
+#     for v in graph[start]:
+#         if v not in visited:
+#             recursive_topological_sort(graph, v, visited)
+#     stack.insert(0, start)
+#     return stack
+
+
 class Test(unittest.TestCase):
     """if alphabet nodes are used, used ord()"""
     g = Graph(4)
@@ -59,6 +82,19 @@ class Test(unittest.TestCase):
     def test_bfs(self):
         print("testing bfs")
         bfs(self.g, 2)
+
+    def test_rdfs(self):
+        print(recursive_dfs(self.g.graph, 0))
+
+    def test_rts(self):
+        g = Graph(6)
+        g.add_edge(5, 2)
+        g.add_edge(5, 0)
+        g.add_edge(4, 0)
+        g.add_edge(4, 1)
+        g.add_edge(2, 3)
+        g.add_edge(3, 1)
+        print(recursive_topological_sort(g.graph, 5))
 
 
 if __name__ == "__main__":
