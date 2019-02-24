@@ -18,7 +18,7 @@ class MyTestCase(unittest.TestCase):
         get_perm3(nums, 0, len(nums) - 1)
 
     def test_permute_dups(self):
-        for case in [[1, 2, 3], [1, 2, 2]]:
+        for case in [[1, 2, 3], [1, 2, 2], "ABC", "AAB"]:
             actual = permute_dups(case)
             print(actual)
 
