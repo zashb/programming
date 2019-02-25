@@ -1,101 +1,97 @@
 import unittest
 from collections import defaultdict
+from collections import deque
 
 
 class Graph:
-    def __init__(self, size):
-        self.numvertices = size
+    def __init__(self):
         self.graph = defaultdict(list)
+        self.vertex_set = set()
 
     def add_edge(self, u, v):
         self.graph[u].append(v)
+        self.vertex_set.add(u)
+        self.vertex_set.add(v)
 
 
-def dfs(g):
-    visited = [False] * g.numvertices
-    for i in range(g.numvertices):
-        if not visited[i]:
-            dfs_util(i, visited, g)
+def get_dfs(g):
+    visited = {v: False for v in g.vertex_set}
+    for v in g.vertex_set:
+        dfs_util(g, v, visited)
 
 
-def dfs_util(v, visited, g):
-    visited[v] = True
-    print(v, end=",")
-    for i in g.graph[v]:
-        if not visited[v]:
-            dfs_util(i, visited, g)
+def dfs_util(g, v, visited):
+    if not visited[v]:
+        visited[v] = True
+        print(v, end=",")
+        adj_list = g.graph[v]
+        for adj_v in adj_list:
+            dfs_util(g, adj_v, visited)
 
 
-def bfs(g, u):
-    """queue is edited while looping over it"""
-    visited = [False] * g.numvertices
-    queue = [u]
-    visited[u] = True
-    # ideally queue[:]
+def get_ts(g):
+    visited = {v: False for v in g.vertex_set}
+    stack = []
+    for v in g.vertex_set:
+        ts_util(g, v, visited, stack)
+    print(stack)
+
+
+def ts_util(g, v, visited, stack):
+    if not visited[v]:
+        visited[v] = True
+        # print(v, end=",")
+        adj_list = g.graph[v]
+        for adj_v in adj_list:
+            ts_util(g, adj_v, visited, stack)
+        stack.append(v)
+
+
+def get_bfs(g, start):
+    visited = {v: False for v in g.vertex_set}
+    visited[start] = True
+    queue = deque()
+    queue.append(start)
     while queue:
-        u = queue.pop(0)
-        print(u, end=",")
-        for i in g.graph[u]:
-            if not visited[i]:
-                queue.append(i)
-                visited[i] = True
-
-
-def recursive_dfs(graph, start, visited=None):
-    if visited is None:
-        visited = set()
-    visited.add(start)
-    print(start, end=",")
-    for v in graph[start]:
-        if v not in visited:
-            recursive_dfs(graph, v, visited)
-
-
-# def recursive_topological_sort(graph, start, visited=None, stack=[]):
-#     # TODO : figure this out!!!
-#     if visited is None:
-#         visited = set()
-#     visited.add(start)
-#     print(start, end=",")
-#     for v in graph[start]:
-#         if v not in visited:
-#             recursive_topological_sort(graph, v, visited)
-#     stack.insert(0, start)
-#     return stack
+        v = queue.popleft()
+        print(v, end=",")
+        adj_list = g.graph[v]
+        for adj_v in adj_list:
+            if not visited[adj_v]:
+                visited[adj_v] = True
+                queue.append(adj_v)
 
 
 class Test(unittest.TestCase):
-    """if alphabet nodes are used, used ord()"""
-    g = Graph(4)
-    g.add_edge(0, 1)
-    g.add_edge(0, 2)
-    g.add_edge(1, 2)
-    g.add_edge(2, 0)
-    g.add_edge(2, 3)
-    g.add_edge(3, 3)
-    g.add_edge(4, 5)
-
     def test_dfs(self):
-        print("testing dfs")
-        dfs(self.g)
+        g = Graph()
+        g.add_edge("a", "b")
+        g.add_edge("a", "c")
+        g.add_edge("b", "c")
+        g.add_edge("c", "a")
+        g.add_edge("c", "d")
+        g.add_edge("d", "d")
+        print("\n dfs : ")
+        get_dfs(g)
 
     def test_bfs(self):
-        print("testing bfs")
-        bfs(self.g, 2)
+        g = Graph()
+        g.add_edge(0, 1)
+        g.add_edge(0, 2)
+        g.add_edge(1, 2)
+        g.add_edge(2, 0)
+        g.add_edge(2, 3)
+        g.add_edge(3, 3)
+        print("\n bfs : ")
+        get_bfs(g, 2)
 
-    def test_rdfs(self):
-        print(recursive_dfs(self.g.graph, 0))
-
-    def test_rts(self):
-        g = Graph(6)
+    def test_ts(self):
+        g = Graph()
         g.add_edge(5, 2)
         g.add_edge(5, 0)
         g.add_edge(4, 0)
         g.add_edge(4, 1)
         g.add_edge(2, 3)
         g.add_edge(3, 1)
-        print(recursive_topological_sort(g.graph, 5))
-
-
-if __name__ == "__main__":
-    unittest.main()
+        print("\n ts : ")
+        get_ts(g)
