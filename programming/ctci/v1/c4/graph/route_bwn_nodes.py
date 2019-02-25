@@ -1,19 +1,11 @@
 import unittest
-from collections import defaultdict
 
-
-class Graph:
-    def __init__(self, vertices):
-        self.vertices = vertices
-        self.graph = defaultdict(list)
-
-    def add_edge(self, u, v):
-        self.graph[u].append(v)
+from programming.ctci.v1.c4.graph.graph_traversals import Graph
 
 
 class Test(unittest.TestCase):
     """Given a directed graph, design an algorithm to find out whether there is a route between two nodes. """
-    g = Graph(4)
+    g = Graph()
     g.add_edge(0, 1)
     g.add_edge(0, 2)
     g.add_edge(1, 2)
@@ -32,7 +24,7 @@ class Test(unittest.TestCase):
 
 
 def is_reachable(g, s, d):
-    visited = [False] * g.vertices
+    visited = {v: False for v in g.vertex_set}
     queue = [s]
     visited[s] = True
     while queue:
