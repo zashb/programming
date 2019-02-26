@@ -38,6 +38,6 @@ class Test(unittest.TestCase):
         string = "a,b$c"
         expected = "c,b$a"
         actual = reverse_list(string)
-        self.assertEquals(expected, actual)
+        self.assertEqual(expected, actual)
         actual = reverse_list_2(string)
-        self.assertEquals(expected, actual)
+        self.assertEqual(expected, actual)
