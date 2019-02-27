@@ -1,7 +1,5 @@
+import sys
 import unittest
-
-INT_MAX = 4294967296
-INT_MIN = -4294967296
 
 
 class Node:
@@ -12,6 +10,7 @@ class Node:
 
 
 def insert(root, new_node):
+    # recursion without return
     if root is None:
         root = new_node
     else:
@@ -28,7 +27,7 @@ def insert(root, new_node):
 
 
 def is_bst(root):
-    return is_bst_util(root, INT_MIN, INT_MAX)
+    return is_bst_util(root, -1 * sys.maxsize, sys.maxsize)
 
 
 def is_bst_util(node, minv, maxv):
@@ -36,6 +35,7 @@ def is_bst_util(node, minv, maxv):
         return True
     if node.val < minv or node.val > maxv:
         return False
+    # key steps
     util_left = is_bst_util(node.left, minv, node.val - 1)
     util_right = is_bst_util(node.right, node.val + 1, maxv)
     return util_left and util_right
