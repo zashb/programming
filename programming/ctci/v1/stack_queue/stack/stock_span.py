@@ -1,6 +1,6 @@
 import unittest
 
-from programming.ctci.v1.c3.stack import StackList
+from programming.ctci.v1.stack_queue.stack import StackList
 
 
 def get_stock_span(price):

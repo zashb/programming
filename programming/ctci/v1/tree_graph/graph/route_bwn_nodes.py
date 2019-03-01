@@ -1,6 +1,6 @@
 import unittest
 
-from programming.ctci.v1.c4.graph.graph_traversals import Graph
+from programming.ctci.v1.tree_graph.graph.graph_traversals import Graph
 
 
 class Test(unittest.TestCase):
