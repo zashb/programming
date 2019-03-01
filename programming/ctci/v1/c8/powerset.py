@@ -45,7 +45,7 @@ def backtrack(nums, res, temp, start):
     res.append(temp)
     for i in range(start, len(nums)):
         if nums[i] not in temp:
-            # we use + to include [] in the result
+            # we use + to obtain return value
             backtrack(nums, res, temp + [nums[i]], i + 1)
 
 
