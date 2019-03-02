@@ -1,6 +1,6 @@
 import unittest
 
-from programming.ctci.v1.stack_queue.stack import StackList
+from programming.ctci.v1.stack_queue.stack.stack import StackList
 
 
 def balanced(exp):
@@ -21,4 +21,6 @@ class Test(unittest.TestCase):
         exp = "[()]{}{[()()]()}"
         self.assertTrue(balanced(exp))
         exp = "[(])"
+        self.assertFalse(balanced(exp))
+        exp = ")"
         self.assertFalse(balanced(exp))
