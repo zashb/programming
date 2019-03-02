@@ -3,6 +3,7 @@ import unittest
 
 # distinct nums
 def magic_index(nums):
+    """magic index in an array is an index i such that arr[i] is equal to i."""
     return searcher(nums, 0, len(nums) - 1)
 
 
@@ -24,6 +25,7 @@ def magic_index2(nums):
 
 
 def searcher2(nums, s, e):
+    nums.sort()
     if e < s:
         return -1
     mid = (s + e) // 2
