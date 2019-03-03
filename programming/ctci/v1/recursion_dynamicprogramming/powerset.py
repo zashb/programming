@@ -9,6 +9,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_subsets2(self):
         nums = [1, 2, 3]
+        nums = [2, 1, 3, 1]
         actual = get_subsets2(nums)
         print(actual)
 
@@ -35,6 +36,7 @@ def get_subsets(setz, index):
     return all_subsets
 
 
+# ignore this implementation. refer to /Users/bhargavayyagari/github/programming/datstr/prgcrk/10math/4_5subsets.py
 def get_subsets2(nums):
     res = []
     backtrack(nums, res, [], 0)
