@@ -1,21 +1,27 @@
-class Int:
-    def __init__(self, s, e):
-        self.s,self.e = s,e
+import unittest
 
-    def __repr__(self):
-        return "[{},{}]".format(self.s, self.e)
 
-def mergeInts(ints):
-    ints_sort = sorted(ints, key=lambda x: x.s)
-    res = []
-    s, e = ints_sort[0].s, ints_sort[0].e
-    for i in ints_sort:
-        if i.s <= e:    e = max(e, i.e)
+def merge_intervals(interval_list):
+    interval_list.sort(key=lambda x: x[0])
+    result = []
+    # init s, e
+    s, e = interval_list[0][0], interval_list[0][1]
+    for i in interval_list:
+        if i[0] <= e:
+            # update e not s
+            e = max(e, i[1])
         else:
-            res.append(Int(s, e))
-            s,e = i.s,i.e
-    res.append(Int(s, e))
-    return res
+            result.append((s, e))
+            # reset s, e
+            s, e = i[0], i[1]
+    # adding the last element
+    result.append(interval_list[-1])
+    return result
 
-if __name__ == '__main__':
-    print(mergeInts([Int(1, 3), Int(2, 6), Int(8, 10), Int(15, 18)]))
+
+class Test(unittest.TestCase):
+    def test_merge_intervals(self):
+        i_list = [(1, 3), (2, 6), (8, 10), (15, 18)]
+        expected = [(1, 6), (8, 10), (15, 18)]
+        actual = merge_intervals(i_list)
+        self.assertEqual(expected, actual)

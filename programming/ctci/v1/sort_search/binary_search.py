@@ -20,7 +20,7 @@ def bs_2(nums, key):
     nums.sort()
     # bisect_left returns idx of first occurence if elem exists else returns idx of rightmost elem < elem
     idx = bisect.bisect_left(nums, key)
-    if nums[idx] == key:
+    if idx < len(nums) and nums[idx] == key:
         return "First occurence of {} found at index {}".format(key, idx)
     return "{} is not found in the list, it can be inserted at index {}".format(key, idx)
 
