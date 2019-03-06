@@ -31,20 +31,20 @@ def dfs_util(g, v, visited):
 
 def get_ts(g):
     visited = {v: False for v in g.vertex_set}
-    stack = []
+    result = []
     for v in g.vertex_set:
-        ts_util(g, v, visited, stack)
-    print(stack)
+        ts_util(g, v, visited, result)
+    print(result)
 
 
-def ts_util(g, v, visited, stack):
+def ts_util(g, v, visited, result):
     if not visited[v]:
         visited[v] = True
         # print(v, end=",")
         adj_list = g.graph[v]
         for adj_v in adj_list:
-            ts_util(g, adj_v, visited, stack)
-        stack.append(v)
+            ts_util(g, adj_v, visited, result)
+        result.append(v)
 
 
 def get_bfs(g, start):
