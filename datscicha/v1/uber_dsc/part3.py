@@ -53,7 +53,7 @@ def cleanData(df):
     # typecast columns to datetime
     for i in ["signup_date", "bgc_date", "vehicle_added_date"]:
         df[i] = pd.to_datetime(df[i])
-    logging.info("typecasted string to datetime columns")
+    logging.info("typecasted array_string to datetime columns")
     # clean vehicle_year column
     df['vehicle_year'] = df['vehicle_year'].replace(to_replace=[0], value=np.NaN)
     logging.info("cleaned vehicle year values")

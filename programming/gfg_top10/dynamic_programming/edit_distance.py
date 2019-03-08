@@ -8,13 +8,13 @@ def get_edit_distance(str1, str2):
     # Fill d[][] in bottom up manner
     for i in range(m + 1):
         for j in range(n + 1):
-            # If first string is empty, only option is to insert all characters of second string
+            # If first array_string is empty, only option is to insert all characters of second array_string
             if i == 0:
                 dp[i][j] = j  # Min. operations = j
-            # If second string is empty, only option is to remove all characters of second string
+            # If second array_string is empty, only option is to remove all characters of second array_string
             elif j == 0:
                 dp[i][j] = i  # Min. operations = i
-            # If last characters are same, ignore last char and recur for remaining string
+            # If last characters are same, ignore last char and recur for remaining array_string
             elif str1[i - 1] == str2[j - 1]:
                 dp[i][j] = dp[i - 1][j - 1]
             # If last character are different, consider all possibilities and find minimum

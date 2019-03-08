@@ -79,7 +79,7 @@ def one_edit_2(s1, s2):
         # If matching, move shorter pointer
         else:
             shorter_idx += 1
-        # Always move pointer for longer string
+        # Always move pointer for longer array_string
         longer_idx += 1
     return True
 

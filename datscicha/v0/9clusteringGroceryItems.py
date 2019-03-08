@@ -1,12 +1,5 @@
-import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-from plotly.offline import plot
 from plotly.graph_objs import *
-from plotly import tools
-from sklearn.manifold import TSNE
-
-from collections import defaultdict
 
 
 class Solution:
@@ -24,7 +17,7 @@ class Solution:
         self.df = pd.merge(historyDF_2, itemsDF, on="Item_id", how="left")
 
     def reformatHistoryDF(self, historyDF):
-        # Enclose multiple values in a col in []; given a string "he,wo" convert to ["he,"wo"] by splitting on ","
+        # Enclose multiple values in a col in []; given a array_string "he,wo" convert to ["he,"wo"] by splitting on ","
         historyDF["id"] = historyDF["id"].str.split(",")
         # convert the list to 1 col
         historyDF_unstacked = pd.DataFrame(

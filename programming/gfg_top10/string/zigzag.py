@@ -7,7 +7,7 @@ def get_zigzag(string, nrows):
     result = [''] * nrows
     rownum, step = 0, 1
     for i in string:
-        # decrementing step will not overwrite because we are always appending to the string
+        # decrementing step will not overwrite because we are always appending to the array_string
         result[rownum] += i
         if rownum == 0:
             step = 1

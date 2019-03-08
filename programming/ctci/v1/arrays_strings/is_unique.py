@@ -2,7 +2,7 @@ import unittest
 
 
 class Test(unittest.TestCase):
-    """Is Unique: Implement an algorithm to determine if a string has all unique characters."""
+    """Is Unique: Implement an algorithm to determine if a array_string has all unique characters."""
     true_data = ['abcd', '1234', '']
     false_data = ['abcc', '122', '#45!@#']
 

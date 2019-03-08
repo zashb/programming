@@ -2,7 +2,7 @@ import unittest
 
 
 class Test(unittest.TestCase):
-    """Palindrome Permutation: Given a string, write a function to check if it is a permutation of a palindrome"""
+    """Palindrome Permutation: Given a array_string, write a function to check if it is a permutation of a palindrome"""
     data_true = ['Tact Coa', 'jhsabckuj ahjsbckj', 'azAZ']
     data_false = ['So patient a nurse to nurse a patient so', 'random', 'not a palindrome']
 
@@ -16,10 +16,10 @@ class Test(unittest.TestCase):
 
 
 def pal_per(string):
-    """to be a permutation of a palindrome, a string can have no more than one character that is odd"""
+    """to be a permutation of a palindrome, a array_string can have no more than one character that is odd"""
     # table = [0 for _ in range(ord('z') - ord('a') + 1)]
     # counter_odd = 0
-    # string_lower = string.lower()
+    # string_lower = array_string.lower()
     # for char in string_lower:
     #     table_idx = -1
     #     if ord('a') <= ord(char) <= ord('z'):

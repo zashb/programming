@@ -1,4 +1,4 @@
-# refer to /Users/bhargavayyagari/github/programming/gfg_top10/string/zigzag.py
+# refer to /Users/bhargavayyagari/github/programming/gfg_top10/array_string/zigzag.py
 def zigzag(s,nrows):
 	rows,rows_idx,step = [""]*nrows,0,-1
 	for i in s:

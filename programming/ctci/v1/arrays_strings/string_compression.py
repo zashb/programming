@@ -2,7 +2,7 @@ import unittest
 
 
 class Test(unittest.TestCase):
-    """String Compression: Implement a method to perform basic string compression using the counts of repeated characters"""
+    """String Compression: Implement a method to perform basic array_string compression using the counts of repeated characters"""
     test_cases = [('aabcccccaaa', 'a2b1c5a3'), ('abcdef', 'abcdef')]
 
     def test_sc(self):
@@ -29,17 +29,17 @@ def sc(raw_string):
     return min(raw_string, compressed_string, key=len)
 
 
-# def string_compression_2(string):
+# def string_compression_2(array_string):
 #     compressed = ""
 #     count_consecutive = 0
-#     for i in range(len(string)):
+#     for i in range(len(array_string)):
 #         count_consecutive += 1
 #         # if next character is different than current or if it is the last char append this char to result
-#         if string[i] != string[i + 1] or i + 1 >= len(string):
-#             compressed += string[i]
+#         if array_string[i] != array_string[i + 1] or i + 1 >= len(array_string):
+#             compressed += array_string[i]
 #             compressed += str(count_consecutive)
 #             count_consecutive = 0
-#     return compressed if len(compressed) < len(string) else string
+#     return compressed if len(compressed) < len(array_string) else array_string
 
 
 if __name__ == "__main__":
