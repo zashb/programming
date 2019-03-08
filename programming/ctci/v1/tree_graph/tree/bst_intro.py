@@ -2,6 +2,7 @@ import sys
 import unittest
 
 
+# https://www.cs.cmu.edu/~adamchik/15-121/lectures/Trees/trees.html
 class Node:
     def __init__(self, val):
         self.val = val
@@ -59,6 +60,7 @@ def get_inorder(root):
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         r = Node(50)
+        # insert() includes root as arg
         insert(r, Node(30))
         insert(r, Node(20))
         insert(r, Node(40))
