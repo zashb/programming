@@ -28,6 +28,18 @@ def get_max_optim(nums, k):
     return res
 
 
+def get_sum(arr):
+    """
+    Given an array of n numbers, our task is to calculate the maximum subarray sum, i.e., the largest possible sum of a sequence of consecutive values in the
+array
+    """
+    best, Sum, n = 0, 0, len(arr)
+    for i in range(n):
+        Sum = max(arr[i], Sum + arr[i])
+        best = max(best, Sum)
+    return best
+
+
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         nums = [1, 4, 2, 10, 2, 3, 1, 0, 20]
@@ -37,6 +49,12 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(actual, expected)
         actual = get_max_optim(nums, k)
         self.assertEqual(actual, expected)
+
+    def test(self):
+        arr = [-2, -3, 4, -1, -2, 1, 5, -3]
+        expected = 7
+        actual = get_sum(arr)
+        print(expected == actual)
 
 
 if __name__ == '__main__':
