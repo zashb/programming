@@ -28,7 +28,7 @@ def get_max_optim(nums, k):
     return res
 
 
-def get_sum(arr):
+def max_subarr_sum(arr):
     """
     Given an array of n numbers, our task is to calculate the maximum subarray sum, i.e., the largest possible sum of a sequence of consecutive values in the
 array
@@ -53,7 +53,7 @@ class MyTestCase(unittest.TestCase):
     def test(self):
         arr = [-2, -3, 4, -1, -2, 1, 5, -3]
         expected = 7
-        actual = get_sum(arr)
+        actual = max_subarr_sum(arr)
         print(expected == actual)
 
 

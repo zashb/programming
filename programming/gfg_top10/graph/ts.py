@@ -6,18 +6,35 @@ from programming.gfg_top10.graph.Graph import Graph
 def get_ts(g):
     visited = {v: False for v in g.vertex_set}
     result = []
+
+    def get_ts_util(g, v, visited, result):
+        if visited[v] != True:
+            visited[v] = True
+            adj_list = g.graph[v]
+            for adj_v in adj_list:
+                get_ts_util(g, adj_v, visited, result)
+            result.append(v)
+
     for v in g.vertex_set:
         get_ts_util(g, v, visited, result)
     print(result)
 
 
-def get_ts_util(g, v, visited, result):
-    if visited[v] != True:
-        visited[v] = True
-        adj_list = g.graph[v]
-        for adj_v in adj_list:
-            get_ts_util(g, adj_v, visited, result)
-        result.append(v)
+# def get_ts(g):
+#     visited = {v: False for v in g.vertex_set}
+#     result = []
+#     for v in g.vertex_set:
+#         get_ts_util(g, v, visited, result)
+#     print(result)
+#
+#
+# def get_ts_util(g, v, visited, result):
+#     if visited[v] != True:
+#         visited[v] = True
+#         adj_list = g.graph[v]
+#         for adj_v in adj_list:
+#             get_ts_util(g, adj_v, visited, result)
+#         result.append(v)
 
 
 class MyTestCase(unittest.TestCase):
