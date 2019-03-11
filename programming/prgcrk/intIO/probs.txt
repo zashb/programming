@@ -1,0 +1,11 @@
+- longest continuous subarr
+- string reverse
+- 3 ptr max product
+- implement pow()
+- max subarr sum
+- topological sort
+- check if subtree
+- vertical line
+- word break
+- split list into regions of <k,==k,>k
+-
