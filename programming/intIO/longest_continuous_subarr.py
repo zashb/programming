@@ -1,0 +1,43 @@
+"""
+return longest contin subarr
+Idea : if prev elem in lookup : continue, else: start a streak
+comp : O(n^2)
+"""
+
+
+def longest_contin_subarr(arr):
+    if arr is None:
+        return 0
+    lookup = set(arr)
+    res = 0
+    for i in arr:
+        if i - 1 in lookup:
+            continue
+        streak = 1
+        while i + streak in lookup:
+            streak += 1
+            res = max(res, streak)
+    return res
+
+
+# def longest_contin_subarr(arr):
+#     lookup = set(arr)
+#     res = 0
+#     for i in arr:
+#         if i - 1 not in lookup:
+#             j = i
+#             while j in lookup:
+#                 j += 1
+#             res = max(res, j - i)
+#     return res
+
+
+arr = [1, 9, 3, 10, 4, 20, 2]
+expected = 4
+actual = longest_contin_subarr(arr)
+print(expected == actual)
+
+arr = [5, 2, 99, 3, 4, 100, 1, 49, 5]
+expected = 5
+actual = longest_contin_subarr(arr)
+print(expected == actual)

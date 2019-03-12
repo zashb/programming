@@ -5,8 +5,8 @@
 - topological sort
 - check if subtree
 - longest continuous subarr
-- vertical line
 - word break
+- vertical line
 - split list into regions of <k,==k,>k
 - max len of contin subarr with equal # 0 and 1
 - coin denomination
