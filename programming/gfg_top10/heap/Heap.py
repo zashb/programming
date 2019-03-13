@@ -1,7 +1,9 @@
 import heapq
 import unittest
 
-
+"""
+complexity : push 1 elem - O(log n), pop - O(log n), push n elem - O(nlogn), kth largest element - O((n-k)logn)
+"""
 class Heap:
     def __init__(self):
         self.heap = []
