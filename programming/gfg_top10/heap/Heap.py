@@ -2,7 +2,8 @@ import heapq
 import unittest
 
 """
-complexity : push 1 elem - O(log n), pop - O(log n), push n elem - O(nlogn), kth largest element - O((n-k)logn)
+complexity : push 1 elem - O(log n), pop - O(log n), push n elem - O(nlogn), kth largest element - O((n-k)logn),
+nlargest - O(len(arr) * log n)
 """
 class Heap:
     def __init__(self):

@@ -1,7 +1,7 @@
 """
 find max len of cont subarr with equal num of 0 and 1
 
-Idea : get all subarr and filter
+Idea : get all subarr and count 0 and 1
 comp : O(n^2)
 Ex :
 Input: [0,1]

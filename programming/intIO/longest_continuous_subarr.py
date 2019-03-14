@@ -1,5 +1,5 @@
 """
-return longest contin subarr
+return len of longest contin subarr
 Idea : if prev elem in lookup : continue, else: start a streak
 comp : O(n^2)
 """

@@ -1,18 +1,25 @@
+"""
+idea : sim to perm, except prefix=[]
+"""
+
+
 import unittest
 
 
 def get_all_pal_part(s):
     res = []
-    dfs(s, [], res)
+    dfs([], s, res)
     return res
 
 
-def dfs(s, path, res):
-    if not s:
-        res.append(path)
-    for i in range(1, len(s) + 1):
-        if isPal(s[:i]):
-            dfs(s[i:], path + [s[:i]], res)
+def dfs(prefix, remainder, res):
+    if len(remainder) == 0:
+        res.append(prefix)
+    for i in range(1, len(remainder) + 1):
+        before = remainder[:i]
+        if isPal(before):
+            after = remainder[i:]
+            dfs(prefix + [before], after, res)
 
 
 def isPal(s):
