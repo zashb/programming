@@ -1,11 +1,13 @@
 def grpAnag(w):
     d = {}
     for i in w:
+        # key of dic must be immutable
         t = tuple(sorted(i))
-        if t not in d:
-            d[t] = [i]
-        else:
-            d[t].append(i)
+        d.setdefault(t, [i]).append(i)
+        # if t not in d:
+        #     d[t] = [i]
+        # else:
+        #     d[t].append(i)
     return d.values()
 
 
