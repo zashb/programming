@@ -1,5 +1,4 @@
 import math
-import sys
 import unittest
 
 
@@ -21,7 +20,8 @@ def get_gcd(a, b):
 
 
 def get_gcd_euclidean(a, b):
-    gcd = sys.maxsize
+    # gcd = sys.maxsize
+    gcd = float('inf')
     if a > b:
         small = b
     else:
