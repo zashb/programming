@@ -48,3 +48,9 @@ dic = {"apple", "pen"}
 expected = True
 actual = check_word_split(string, dic)
 print(expected == actual)
+
+string = "apple"
+dic = {"appl", "aaple", "e"}
+expected = True
+actual = check_word_split(string, dic)
+print(expected == actual)
