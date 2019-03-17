@@ -20,7 +20,14 @@ def word_break(string, lookup):
 
 
 string = "applepenapple"
-lookup = {"apple", "pen"}
+# lookup = {"apple", "pen"}
+lookup = {"appl", "pen", "e"}
+expected = True
+actual = word_break(string, lookup)
+print(expected == actual)
+
+string = "routingnumber"
+lookup = {"rout", "ing", "number"}
 expected = True
 actual = word_break(string, lookup)
 print(expected == actual)
