@@ -43,3 +43,5 @@ ___
 ### Subarray:
 + Check if contiguous elements or not
 + Total number of subarrays : n * (n + 1) / 2
++ Problem Types: 
+    + continuous subarray: len of longest, max sum, max len of equal 0 and 1

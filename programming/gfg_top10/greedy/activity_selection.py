@@ -5,13 +5,13 @@ def get_activities(s, f):
     """The following implementation assumes that the activities
     are already sorted according to their finish time. Prints a maximum set of activities that can be done by a
     single person, one at a time"""
-    n = len(s)
-    first = 0
-    result = [first]
+    prev, n = 0, len(s)
+    result = [prev]
     for i in range(n):
-        if s[i] >= f[first]:
+        if s[i] >= f[prev]:
             result.append(i)
-            first = i
+            # current becomes prev
+            prev = i
     return result
 
 
