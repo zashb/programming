@@ -1,0 +1,557 @@
+    
+“””
+Prob: install dependencies before installing packages
+Idea : topological sort
+Com : O(V+E)
+Test : expected = [0, 1, 3, 2, 4, 5]
+“””
+
+from collections import defaultdict
+
+class Graph:
+	def __init__(self):
+		self.graph = defaultdict(list)
+		self.vertex_set = set()
+	def add_edge(self,u,v):
+		self.graph[u].append(v)
+		self.vertex_set.add(u)
+		self.vertex_set.add(v)
+
+def get_ts(g):
+	visited = {v : False for v in g.vertex_set}
+	stack = []
+	def get_ts_util(g,visited,v,stack):
+		if visited[v] == False:
+	visited[v] = True
+	adj_list = g.graph[v]
+	for adj_v in adj_list:
+		get_ts_util(g,visited,adj_v,stack)
+	stack.append(v)
+	for v in g.vertex_set:
+		get_ts_util(g,visited,v,stack)
+	return stack
+
+
+
+
+
+
+"""
+prob : is S subtree of T
+idea : check if identical, check left, check right
+Comp : O(m*n)
+"""
+
+class TreeNode:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+def is_subtree(T,S):
+    if S is None:
+        return True
+    if T is None:
+        return False
+    if are_identical(T,S):
+        return True
+    return is_subtree(T.left, S) or is_subtree(T.right, S)
+
+
+def are_identical(Troot, Sroot):
+    if Troot is None and Sroot is None:
+        return True
+    if Troot is None or Sroot is None:
+        return False
+    return (Troot.val == Sroot.val) and are_identical(Troot.left, Sroot.left) and are_identical(Troot.right, Sroot.right) 
+
+
+
+
+
+
+"""
+prob : return longest contin subarr
+Idea : if item-1 in lookup continue else streak
+com : O(n^2)
+"""
+
+def lcs(arr):
+    arr_set = set(arr)
+    res = 0
+    for elem in arr:
+        if elem - 1 in arr_set:
+            continue
+        else:
+            streak = 1
+            while elem + streak in arr_set:
+                streak += 1
+                res = max(res,streak)
+    return res
+
+
+
+
+
+
+"""
+prob: return max sum of contin subarr
+idea : Sum, res using max
+Com : O(n)
+"""
+
+def mscs(arr):
+    Sum,res = 0,0    
+    for i in arr:
+        Sum = max(Sum, Sum+i)
+        res = max(res, Sum)
+    return res
+
+
+
+
+
+
+"""
+prob : find max len of cont subarr with equal num of 0 and 1
+idea : for each subarr, count 0 and 1
+com : O(n^2)
+"""
+
+
+def mlcs(arr):
+    n = len(arr)
+    for lp in range(n):
+        zc,oc = 0,0
+        for rp in range(lp,n):
+            if arr[rp] == 0:
+                zc += 1
+            else:
+                oc += 1
+            if zc == oc:
+                res = max(res, rp - lp + 1)
+    return res
+
+
+
+
+
+
+"""
+prob : max prod of 3 elem
+idea : max3, min2 and max1
+com : O(3 log n)
+"""
+
+
+import heapq
+def max_prod(arr):
+    a = heapq.nlargest(3,arr)
+    b = heap.nsmallest(2,arr)
+    prod1 = a[0]*a[1]*a[2]
+    prod2 = a[0]*b[0]*b[1]
+    return max(prod1, prod2)
+
+
+
+
+
+
+"""
+prob : check if a string can be segmented into space-separated sequence of 1 or more dictionary words
+idea : fp,bp; check in lookup, fp continue, bp
+comp : O(n^2)
+"""
+
+def ws(string, lookup):
+    n = len(string)
+    word_flag = [False] * (n + 1)
+    word_flag[0] = True
+    for lp in range(1,n+1):
+        for rp in range(lp,-1,-1):
+            if word_flag[fp] == True:
+                break
+            if word_flag[bp] == True:
+                if string[fp:bp] in lookup:
+                    word_flag[fp] = True
+    return word_flag[-1]
+
+# end of int IO
+
+
+
+"""
+prob : all string permutations
+Idea : BT
+Com : O(n*n!)
+"""
+
+def perm(arr):
+    res = []
+    def perm_util(arr, res, temp):
+        if len(temp) == len(res):
+            res.append(temp[:])
+        else:
+            n = len(arr)
+            for i in range(n):
+                if arr[i] in temp:
+                    continue
+                temp.append(arr[i])
+                perm_util(arr, res, temp)
+                temp.pop()
+    perm_util(arr, res, [])
+    return res
+
+
+
+
+
+
+"""
+prob : power set
+Idea : BT
+Com : O(2 ^ n)
+"""
+
+def power_set(arr):
+    res = []
+    def power_set_util(arr, res, temp, start):
+        if temp[:] not in res:
+            res.append(temp[:])
+        n = len(arr)
+        for i in range(start, n):
+            if i > start and arr[i] == arr[i - 1]:
+                continue
+            temp.append(arr[i])
+            power_set_util(arr, res, temp, i + 1)
+            temp.pop()
+    power_set_util(arr, res, [], 0)
+    return res
+
+
+
+
+
+
+
+"""
+prob : pal part
+idea : BT
+com : O(n!) maybe
+"""
+
+
+def pal_part(arr):
+    res = []
+    def pal_part_util(arr, res, temp, start):
+        if start == len(arr):
+            res.append(temp[:])
+        else:
+            n = len(arr)
+            for i in range(start, n):
+                if arr[start: i+1] == arr[start:i+1][::-1]:
+                    temp.append(arr[start: i+1])
+                    pal_part_util(arr,res,temp,i+1)
+                    temp.pop()
+    pal_part_util(arr,res,[],0)
+    return res
+
+
+
+# beg of prev int Q
+
+
+"""
+prob : Given two strings, one is derived by adding some characters into the other. Find all these characters. Example: A='abc', B='aabcde', return ['a','d','e']
+Idea : Counter diff
+com : O(n)
+"""
+
+from collections import Counter
+
+def diff_char(a, b):
+    ca, cb = Counter(a), Counter(b)
+    diff = cb - ca
+    res = [i for i in diff]
+    return res
+
+a,b = "abc", "aabcde"
+expected = ["a","d","e"]
+actual = diff_char(a,b)
+print(expected == actual)
+
+
+
+
+
+
+"""
+prob : check rotational symmetry
+idea : lookup, iterate
+com : O(n^2)
+ex : 1691, 181, 11, 1001
+"""
+
+
+def crm(string):
+    # lookup = {"0":"0","1":"1","8":"8","6":"9","9":"6"}
+    lookup = ["0","1","6","9"]
+    for char in string:
+        if char not in lookup:
+            return False
+    return True
+
+string = str(1821)
+expected = True
+actual = crm(string)
+print(expected == actual)
+
+
+
+
+
+
+"""
+prob : average from data stream
+idea : math
+comp : O(n)
+"""
+
+
+def curr_avg(arr):
+    res, n = 0, len(arr)
+    for i in range(n):
+        res = (res * i + arr[i]) / (i + 1)
+        print(res)
+
+
+arr = [10, 20, 30, 40, 50, 60]
+curr_avg(arr)
+
+
+
+
+
+# Beg of ctci
+
+
+"""
+prob : is unique
+idea : set, ord_flag
+com : O(n)
+"""
+
+def is_unique(string):
+    return len(string) == len(set(string))
+
+
+
+
+
+
+"""
+prob : check if 1 string is perm of other
+idea : sorted, ord_flag
+com : O(nlogn) , O(n)
+"""
+
+def check_perm(s1,s2):
+    if len(s1) != len(s2):
+        return False
+    ord_flag = [0] * 128
+    for char in s1:
+        ord_flag[ord(char)] += 1
+    for char in s2:
+        ord_flag[ord(char)] -= 1
+        if ord_flag[ord(char)] < 0:
+            return False
+    return True
+
+
+
+
+
+
+"""
+prob : 1 edit away
+idea : replace, insert, delete
+com : 
+"""
+
+def one_edit(s1,s2):
+    if len(s1) == len(s2):
+        return one_edit_replace(s1,s2)
+    elif len(s1) + 1 == len(s2)
+        return one_edit_insert(s1,s2)
+    elif len(s1) - 1 == len(s2)
+        return one_edit_insert(s2,s1)
+    return False
+
+
+def one_edit_replace(s1,s2):
+    edited = False
+    for c1,c2 in zip(s1,s2):
+        if c1 != c2:
+            if edited == True:
+                return False
+            edited = True
+    return True
+
+
+def one_edit_insert(s1,s2):
+    edited,i,j = False,0,0
+    while i < len(s1) and j < len(s2):
+        if s1[i] != s2[j]:
+            if edited == True:
+                return False
+            edited = True
+            j += 1
+        else:
+            i += 1
+            j += 1
+    return True
+
+
+
+
+
+"""
+prob : pal perm
+idea : ord flag, odd_ctr
+com : O(n)
+"""
+
+def is_pal_perm(string):
+    ord_flag = [0] * 128
+    odd_count = 0
+    for char in string:
+        ord_val = ord('char')
+        ord_flag[ord_val] += 1
+        if ord_flag[ord_val] % 2 == 1:
+            odd_count += 1
+        else:
+            odd_count -= 1
+    return odd_count <= 1
+
+
+
+
+
+        
+"""
+Linked list
+"""
+
+
+class LLNode:
+    def __init__(self, val, next=None, prev=None):
+        self.val = val
+        self.next = None
+        self.prev = None
+
+
+class LL:
+    def __init__(self):
+        self.head = None
+        self.tail = None
+
+    def add(self, val):
+        new_node = LLNode(val)        
+        if self.head is None:
+            self.head = new_node
+            self.tail = new_node
+        else:
+            self.tail.next = new_node
+            self.tail = tail.next
+
+    def add_to_beg(self, val):
+        new_node = LLNode(val)
+        if self.head is None:
+            self.head = new_node
+            self.tail = new_node
+        else:
+            new_node.next = head
+            head = new_node    
+
+
+
+
+
+
+"""
+binary search
+"""
+
+
+def bs(arr, key):
+    arr_s = sorted(arr)
+    l, r = 0, len(arr) - 1
+    while l < r:
+        mid = (l + r) // 2
+        if arr[mid] == key:
+            return mid
+        if arr[mid] > key:
+            r = mid -1
+        else:
+            l = mid + 1
+    return -1
+
+
+
+
+
+
+"""
+merge sort
+"""
+
+
+def ms(arr):
+    mid = len(arr) // 2
+    L, R = arr[:mid], arr[mid:]
+    ms(L)
+    ms(R)
+    li, ri, k = 0,0,0
+    while li < len(L) and ri < len(R):
+        if L[li] < R[ri]:
+            arr[k] = L[li]
+            li+=1
+        else:
+            arr[k] = R[ri]
+            ri += 1
+        k += 1
+    while li < len(L):
+        arr[k] = L[li]
+        li += 1
+        k += 1
+    while ri < len(R):
+        arr[k] = R[ri]
+        ri += 1
+        k += 1
+    return arr
+
+
+
+
+
+
+"""
+prob : peak valley
+
+"""
+
+
+def pv(arr):
+    n = len(arr)
+    for i in range(0,n,2):
+        if i > 0 and arr[i] < arr[i-1]:
+             arr[i], arr[i-1] = arr[i-1], arr[i]
+		  if arr[i] < arr[i+1]:
+             arr[i], arr[i+1] = arr[i+1], arr[i]             
+    return arr
+
+
+
+
+        
+
