@@ -1,4 +1,4 @@
-from collections import deque, defaultdict
+from collections import deque
 
 
 # BFS from front to end

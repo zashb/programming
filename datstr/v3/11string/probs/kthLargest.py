@@ -1,8 +1,6 @@
 # heap[k] <= heap[2*k+1] and heap[k] <= heap[2*k+2] for all k,
 # smallest element is always the root, heap[0].
 
-import heapq
-
 
 class Solution:
     def kthLargest(self, nums, k):

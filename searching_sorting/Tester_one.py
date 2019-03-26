@@ -1,5 +1,7 @@
-import One
 import time
+
+import One
+
 
 def main():
     one = One.One()

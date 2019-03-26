@@ -1,4 +1,5 @@
-import One, Two
+import One
+import Two
 
 
 def main():

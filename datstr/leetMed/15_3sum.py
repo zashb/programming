@@ -1,6 +1,3 @@
-import itertools
-
-
 def threeSum(nums):
     # c = itertools.combinations(nums,3)
     # s = {tuple(sorted(i)):i for i in c if sum(i)==0}

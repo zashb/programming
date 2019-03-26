@@ -1,6 +1,3 @@
-import heapq
-
-
 class Solution:
     def mergeSortedArrs(self, nums1, nums2):
         for i, j in enumerate(nums1):

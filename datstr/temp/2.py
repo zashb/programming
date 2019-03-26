@@ -1,13 +1,14 @@
-import pandas as pd
-import numpy as np
 import logging
-import matplotlib.pyplot as plt
 import math
-from keras.models import Sequential
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 from keras.layers import Dense
 from keras.layers import LSTM
-from sklearn.preprocessing import MinMaxScaler
+from keras.models import Sequential
 from sklearn.metrics import mean_squared_error
+from sklearn.preprocessing import MinMaxScaler
 
 
 def readRawCsv(filename):

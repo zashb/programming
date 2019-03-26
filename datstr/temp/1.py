@@ -1,12 +1,13 @@
-import numpy
-import matplotlib.pyplot as plt
-from pandas import read_csv
 import math
-from keras.models import Sequential
+
+import matplotlib.pyplot as plt
+import numpy
 from keras.layers import Dense
 from keras.layers import LSTM
-from sklearn.preprocessing import MinMaxScaler
+from keras.models import Sequential
+from pandas import read_csv
 from sklearn.metrics import mean_squared_error
+from sklearn.preprocessing import MinMaxScaler
 
 
 # convert an array of values into a dataset matrix

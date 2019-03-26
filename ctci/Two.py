@@ -1,6 +1,3 @@
-from collections import OrderedDict
-
-
 class Two(object):
     def has_unique_chars(self, string):
         if len(string.lower()) == len(set(string.lower())):

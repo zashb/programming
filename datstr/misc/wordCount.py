@@ -1,7 +1,7 @@
-from glob import glob
-from collections import Counter
-import re
 import os
+import re
+from collections import Counter
+from glob import glob
 
 
 def getWordCount(dir):
