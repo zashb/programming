@@ -1,6 +1,7 @@
 """
 Given a sorted integer array without duplicates, return the summary of its ranges.
 idea: 2 ptr, print_range
+comp: O(n)
 """
 
 
@@ -10,14 +11,14 @@ def summary_ranges(arr):
     res, left, right = [], 0, 0
     while right < len(arr) - 1:
         if arr[right] + 1 != arr[right + 1]:
-            res.append(print_range(arr[left], arr[right]))
+            res.append(format_range(arr[left], arr[right]))
             left = right + 1
         right += 1
-    res.append(print_range(arr[left], arr[right]))
+    res.append(format_range(arr[left], arr[right]))
     return res
 
 
-def print_range(l, r):
+def format_range(l, r):
     if l == r:
         return str(l)
     else:
