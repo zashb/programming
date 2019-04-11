@@ -1,6 +1,6 @@
 import unittest
 
-from programming.ctci.v1.linked_list.linked_list import LinkedList
+from ctci.v1.linked_list.linked_list import LinkedList
 
 
 class MyTestCase(unittest.TestCase):
