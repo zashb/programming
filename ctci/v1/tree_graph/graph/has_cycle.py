@@ -1,6 +1,6 @@
 import unittest
 
-from programming.ctci.v1.tree_graph.graph.graph_traversals import Graph
+from ctci.v1.tree_graph.graph.graph_traversals import Graph
 
 
 def has_cycle(g):
@@ -34,5 +34,5 @@ class Test(unittest.TestCase):
         g.add_edge(2, 3)
         g.add_edge(3, 4)
         g.add_edge(3, 5)
-        # g.add_edge(3, 1) # has cycle
+        g.add_edge(3, 1)  # has cycle
         print(has_cycle(g))
