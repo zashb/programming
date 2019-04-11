@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de9855fa-b9c0-4648-9455-b0eb73cdaea8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/approach2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prgcrk/array_string/candy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctci/v1/linked_list/has_cycle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/move_zeros.py" beforeDir="false" afterPath="$PROJECT_DIR$/prgcrk/array_string/move_zeros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/rem_all_occur.py" beforeDir="false" afterPath="$PROJECT_DIR$/prgcrk/array_string/rem_elem.py" afterDir="false" />
     </list>
+    <list id="ed0e0b5d-45fd-40d5-be92-d6541e19b757" name="local_files" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,51 +13,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/linked_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-422" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/is_pal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/beg_of_loop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/approach2.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="144">
-                <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/candy.py">
+        <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/has_cycle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/rem_dup_sort_arr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/rem_elem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/move_zeros.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -76,9 +62,30 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>node</find>
+      <find>(</find>
+      <find>)</find>
+      <find>S</find>
+      <find>anchor</find>
+      <find>ans</find>
+      <find>ord_flag[str(i)]</find>
+      <find>palPairs</find>
+      <find>iso</find>
+      <find>sys.maxsize</find>
+      <find>self</find>
+      <find>self.</find>
+      <find>from programming.ctci.v1.linked_list.linked_list import LinkedList</find>
     </findStrings>
     <replaceStrings>
       <replace>TreeNode</replace>
+      <replace>[</replace>
+      <replace>]</replace>
+      <replace>string</replace>
+      <replace>left</replace>
+      <replace>res</replace>
+      <replace>ord_flag[ord(str(i))]</replace>
+      <replace>pal_pairs</replace>
+      <replace>float('inf')</replace>
+      <replace>g.</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -87,23 +94,69 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/gfg_top10/tree/parse_tree.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/rem_elem.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/move_zeros.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/candy.py" />
         <option value="$PROJECT_DIR$/approach2.md" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/candy.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/min_size_subarr_sum.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/summary_ranges.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/missing_ranges.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/merge_interval.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/insert_interval.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/partition_labels.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/one_edit_distance.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/is_subsequence.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/container_most_water.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/reverse_vowels.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/shortest_word_distance.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/intersection_of_2_arrays.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/binary_search/search_insert_pos.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/binary_search/min_rot_sort_arr.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/binary_search/len_longest_inc_subarr.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/binary_search/binary_search_impl.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/valid_anagrams.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/valid_anagram.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/group_shifting.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/pal_pairs.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/isomorphic_strings.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/two_sum.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/max_subarr_prod.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/max_size_subarr_sum_equals_k.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/max_subarr_sum.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/num_subarr_sum_equals_k.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_with_k_rep_char.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashset/len_longest_conseq_arr.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashset/len_longest_conseq_seq.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/caching/majority_elem.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/heap/k_most_freq.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/heap/meeting_rooms.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/heap/meeting_rooms2.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/bfs/word_ladder.py" />
+        <option value="$PROJECT_DIR$/prgcrk/matrix/search_matrix.py" />
+        <option value="$PROJECT_DIR$/ctci/v1/tree_graph/graph/has_cycle.py" />
+        <option value="$PROJECT_DIR$/gfg_top10/graph/has_cycle.py" />
+        <option value="$PROJECT_DIR$/gfg_top10/graph/mst_prim.py" />
+        <option value="$PROJECT_DIR$/ctci/v1/linked_list/beg_of_loop.py" />
+        <option value="$PROJECT_DIR$/ctci/v1/linked_list/remove_dup.py" />
+        <option value="$PROJECT_DIR$/ctci/v1/linked_list/kth_to_last.py" />
+        <option value="$PROJECT_DIR$/ctci/v1/linked_list/delete_middle.py" />
+        <option value="$PROJECT_DIR$/ctci/v1/linked_list/intersection.py" />
+        <option value="$PROJECT_DIR$/ctci/v1/linked_list/sum_lists.py" />
+        <option value="$PROJECT_DIR$/ctci/v1/linked_list/partition.py" />
+        <option value="$PROJECT_DIR$/ctci/v1/stack_queue/stack/stack.py" />
+        <option value="$PROJECT_DIR$/ctci/v1/linked_list/is_pal.py" />
+        <option value="$PROJECT_DIR$/ctci/v1/linked_list/has_cycle.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="782" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="896" />
     <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -125,22 +178,106 @@
               <item name="prgcrk" type="462c0819:PsiDirectoryNode" />
               <item name="array_string" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programming" type="462c0819:PsiDirectoryNode" />
+              <item name="prgcrk" type="462c0819:PsiDirectoryNode" />
+              <item name="array_string" type="462c0819:PsiDirectoryNode" />
+              <item name="binary_search" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'local_files'; set:local_files; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="binary_search" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ctci" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ctci" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="v1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ctci" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="v1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="linked_list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="gfg_top10" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/prgcrk/array_string/hashmap" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/prgcrk/array_string/pointers" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/prgcrk/array_string/hashmap" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -156,8 +293,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.candy">
-    <configuration name="candy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.has_cycle (1)">
+    <configuration name="2addTwoLists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,11 +302,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/array_string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datstr/leetMed" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/array_string/candy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datstr/leetMed/2addTwoLists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,7 +315,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="move_zeros" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="has_cycle (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,11 +323,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/array_string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctci/v1/linked_list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/array_string/move_zeros.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctci/v1/linked_list/has_cycle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,7 +336,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="parse_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="has_cycle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,11 +344,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gfg_top10/tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gfg_top10/graph" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gfg_top10/tree/parse_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gfg_top10/graph/has_cycle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,7 +357,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rem_elem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mst_prim" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,25 +365,40 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/array_string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gfg_top10/graph" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/array_string/rem_elem.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gfg_top10/graph/mst_prim.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for has_cycle.Test.test_has_cycle" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctci/v1/tree_graph/graph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;has_cycle.Test.test_has_cycle&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.candy" />
-        <item itemvalue="Python.move_zeros" />
-        <item itemvalue="Python.rem_elem" />
-        <item itemvalue="Python.parse_tree" />
+        <item itemvalue="Python.has_cycle (1)" />
+        <item itemvalue="Python.mst_prim" />
+        <item itemvalue="Python.has_cycle" />
+        <item itemvalue="Python tests.Unittests for has_cycle.Test.test_has_cycle" />
+        <item itemvalue="Python.2addTwoLists" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +408,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="de9855fa-b9c0-4648-9455-b0eb73cdaea8" name="Default Changelist" comment="" />
+      <changelist id="ed0e0b5d-45fd-40d5-be92-d6541e19b757" name="local_files" comment="" />
       <created>1553601808967</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -289,31 +442,205 @@
       <option name="project" value="LOCAL" />
       <updated>1553684012294</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="prgcrk - pointers">
+      <created>1553687933963</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553687933963</updated>
+    </task>
+    <task id="LOCAL-00006" summary="prgcrk - arrays_strings - pattern 3">
+      <created>1553861430222</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553861430223</updated>
+    </task>
+    <task id="LOCAL-00007" summary="prgcrk - arrays_strings - pointer">
+      <created>1553863046750</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553863046750</updated>
+    </task>
+    <task id="LOCAL-00008" summary="prgcrk - arrays_strings - pointer - pattern4">
+      <created>1554205271232</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554205271233</updated>
+    </task>
+    <task id="LOCAL-00009" summary="prgcrk - arrays_strings - pointer - pattern5, pattern6">
+      <created>1554292168229</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554292168229</updated>
+    </task>
+    <task id="LOCAL-00010" summary="prgcrk - arrays_strings - pointer - pattern7, pattern8">
+      <created>1554323151619</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554323151619</updated>
+    </task>
+    <task id="LOCAL-00011" summary="prgcrk - arrays_strings - binary search">
+      <created>1554334369791</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554334369791</updated>
+    </task>
+    <task id="LOCAL-00012" summary="prgcrk - arrays_strings - hashmap">
+      <created>1554380372455</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554380372455</updated>
+    </task>
+    <task id="LOCAL-00013" summary="prgcrk - arrays_strings - subarray">
+      <created>1554397486943</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554397486943</updated>
+    </task>
+    <task id="LOCAL-00014" summary="prgcrk - arrays_strings - hashmap tracking">
+      <created>1554641971852</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554641971852</updated>
+    </task>
+    <task id="LOCAL-00015" summary="prgcrk - arrays_strings - hashset">
+      <created>1554643197567</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554643197567</updated>
+    </task>
+    <task id="LOCAL-00016" summary="prgcrk - arrays_strings - caching">
+      <created>1554672901738</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1554672901738</updated>
+    </task>
+    <task id="LOCAL-00017" summary="prgcrk - arrays_strings - bfs">
+      <created>1554674109598</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1554674109598</updated>
+    </task>
+    <task id="LOCAL-00018" summary="prgcrk - arrays_strings - heap">
+      <created>1554681484646</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554681484646</updated>
+    </task>
+    <task id="LOCAL-00019" summary="prgcrk - arrays_strings - word_ladder">
+      <created>1554723915336</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1554723915336</updated>
+    </task>
+    <task id="LOCAL-00020" summary="prgcrk - matrix - search2D">
+      <created>1554895206488</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1554895206488</updated>
+    </task>
+    <task id="LOCAL-00021" summary="gfg top 10 - graph">
+      <created>1554948626577</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1554948626577</updated>
+    </task>
+    <task id="LOCAL-00022" summary="linkedlist refactor">
+      <created>1554981344465</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1554981344465</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_has_cycle_Test_test_has_cycle - 2019.04.10 at 20h 28m 24s.xml">
+      <configuration name="Unittests for has_cycle.Test.test_has_cycle" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_has_cycle_Test_test_has_cycle - 2019.04.10 at 20h 28m 40s.xml">
+      <configuration name="Unittests for has_cycle.Test.test_has_cycle" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="977" extended-state="0" />
+    <frame x="782" y="23" width="896" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22971429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32946634" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32946634" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32946634" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32946634" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22737819" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32946634" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32946634" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32946634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
@@ -323,65 +650,398 @@
     <MESSAGE value="test" />
     <MESSAGE value="refactor" />
     <MESSAGE value="parse tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="parse tree" />
+    <MESSAGE value="prgcrk - pointers" />
+    <MESSAGE value="prgcrk - arrays_strings - pattern 3" />
+    <MESSAGE value="prgcrk - arrays_strings - pointer" />
+    <MESSAGE value="prgcrk - arrays_strings - pointer - pattern4" />
+    <MESSAGE value="prgcrk - arrays_strings - pointer - pattern5, pattern6" />
+    <MESSAGE value="prgcrk - arrays_strings - pointer - pattern7, pattern8" />
+    <MESSAGE value="prgcrk - arrays_strings - binary search" />
+    <MESSAGE value="prgcrk - arrays_strings - hashmap" />
+    <MESSAGE value="prgcrk - arrays_strings - subarray" />
+    <MESSAGE value="prgcrk - arrays_strings - hashmap tracking" />
+    <MESSAGE value="prgcrk - arrays_strings - hashset" />
+    <MESSAGE value="prgcrk - arrays_strings - caching" />
+    <MESSAGE value="prgcrk - arrays_strings - bfs" />
+    <MESSAGE value="prgcrk - arrays_strings - heap" />
+    <MESSAGE value="prgcrk - arrays_strings - word_ladder" />
+    <MESSAGE value="prgcrk - matrix - search2D" />
+    <MESSAGE value="gfg top 10 - graph" />
+    <MESSAGE value="linkedlist refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedlist refactor" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prgcrk/array_string/pointers/prod_not_self.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>actual.elements()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>actual.values()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gfg_top10/tree/parse_tree.py">
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/summary_ranges.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="432">
+          <caret line="24" column="37" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/move_zeros.py">
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/candy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="113">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/rem_dup_sort_arr.py">
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/min_size_subarr_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/approach.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/rem_elem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/candy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="84">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/approach2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
+          <first_editor relative-caret-position="120">
             <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/merge_interval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/insert_interval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/partition_labels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/is_subsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/container_most_water.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/reverse_vowels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/shortest_word_distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/intersection_of_2_arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/binary_search/search_insert_pos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/binary_search/min_rot_sort_arr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/binary_search/len_longest_inc_subarr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/234229306/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="2831" column="8" selection-start-line="2831" selection-start-column="8" selection-end-line="2831" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap/group_shifting.py" />
+    <entry file="file://$PROJECT_DIR$/datstr/v3/11string/probs/palindPairs.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap/valid_anagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap/pal_pairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datstr/prgcrk/1string/py/3isomStr.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap/isomorphic_strings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/subarray/max_subarr_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="18" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/subarray/num_subarr_sum_equals_k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="18" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/subarray/two_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/subarray/max_size_subarr_sum_equals_k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/subarray/max_subarr_prod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_with_k_rep_char.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashset/len_longest_conseq_seq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/caching/majority_elem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datstr/v3/11string/probs/hard/wordLadder..py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="29" column="92" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="29" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/heapq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="523" column="4" selection-start-line="523" selection-start-column="4" selection-end-line="523" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/heap/k_most_freq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#114#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/heap/meeting_rooms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/heap/meeting_rooms2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/one_edit_distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/bfs/word_ladder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/binary_search/binary_search_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/matrix/search_matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datstr/leetMed/2addTwoLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datstr/v3/3BasicDS/probs/cycle.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gfg_top10/graph/mst_prim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gfg_top10/graph/has_cycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctci/v1/tree_graph/graph/has_cycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="37" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-422" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/sum_lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/is_pal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/beg_of_loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/has_cycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
         </state>
       </provider>
     </entry>
