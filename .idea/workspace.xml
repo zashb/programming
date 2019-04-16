@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de9855fa-b9c0-4648-9455-b0eb73cdaea8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/prgcrk/dfs/lexical_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prgcrk/dfs/word_pattern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prgcrk/dp/coin_change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prgcrk/dp/house_robber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prgcrk/dp/jump_game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="ed0e0b5d-45fd-40d5-be92-d6541e19b757" name="local_files" comment="" />
@@ -16,28 +17,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prgcrk/dfs/wildcard_match.py">
+        <entry file="file://$PROJECT_DIR$/prgcrk/dp/coin_change.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="360">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prgcrk/dfs/word_pattern.py">
+        <entry file="file://$PROJECT_DIR$/prgcrk/dp/house_robber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="390">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prgcrk/dfs/lexical_order.py">
+        <entry file="file://$PROJECT_DIR$/prgcrk/dp/jump_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="499">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -67,6 +68,7 @@
       <find>self.</find>
       <find>from programming.ctci.v1.linked_list.linked_list import LinkedList</find>
       <find>perm</find>
+      <find>pal</find>
     </findStrings>
     <replaceStrings>
       <replace>TreeNode</replace>
@@ -87,10 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/one_edit_distance.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/is_subsequence.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/container_most_water.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/reverse_vowels.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/shortest_word_distance.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/intersection_of_2_arrays.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/binary_search/search_insert_pos.py" />
@@ -138,6 +136,10 @@
         <option value="$PROJECT_DIR$/prgcrk/dfs/permutations_2.py" />
         <option value="$PROJECT_DIR$/prgcrk/dfs/word_pattern.py" />
         <option value="$PROJECT_DIR$/prgcrk/dfs/lexical_order.py" />
+        <option value="$PROJECT_DIR$/intIO/min_num_of_coins.py" />
+        <option value="$PROJECT_DIR$/prgcrk/dp/coin_change.py" />
+        <option value="$PROJECT_DIR$/prgcrk/dp/house_robber.py" />
+        <option value="$PROJECT_DIR$/prgcrk/dp/jump_game.py" />
       </list>
     </option>
   </component>
@@ -254,13 +256,30 @@
             <path>
               <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="gfg_top10" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="gfg_top10" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="greedy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="gfg_top10" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dfs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -295,8 +314,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lexical_order">
-    <configuration name="flatten_bin_tree_to_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.jump_game">
+    <configuration name="coin_change" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,11 +323,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/dp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/tree/flatten_bin_tree_to_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/dp/coin_change.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="house_robber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/dp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/dp/house_robber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jump_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/dp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/dp/jump_game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,7 +399,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trie" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="min_num_of_coins" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,53 +407,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intIO" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/tree/trie.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="wildcard_match" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/dfs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/dfs/wildcard_match.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="word_pattern" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/dfs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/dfs/word_pattern.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intIO/min_num_of_coins.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -403,11 +422,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jump_game" />
+        <item itemvalue="Python.house_robber" />
+        <item itemvalue="Python.coin_change" />
+        <item itemvalue="Python.min_num_of_coins" />
         <item itemvalue="Python.lexical_order" />
-        <item itemvalue="Python.word_pattern" />
-        <item itemvalue="Python.wildcard_match" />
-        <item itemvalue="Python.trie" />
-        <item itemvalue="Python.flatten_bin_tree_to_list" />
       </list>
     </recent_temporary>
   </component>
@@ -598,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555263870558</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="prgcrk - dfs">
+      <created>1555324930389</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1555324930389</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -701,7 +727,8 @@
     <MESSAGE value="linkedlist loop" />
     <MESSAGE value="prgcrk - tree" />
     <MESSAGE value="prgcrk - tree - trie" />
-    <option name="LAST_COMMIT_MESSAGE" value="prgcrk - tree - trie" />
+    <MESSAGE value="prgcrk - dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="prgcrk - dfs" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -732,37 +759,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap/pal_pairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datstr/prgcrk/1string/py/3isomStr.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap/isomorphic_strings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/subarray/max_subarr_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="18" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/subarray/num_subarr_sum_equals_k.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="18" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prgcrk/array_string/subarray/two_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1049,15 +1045,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice.txt">
+    <entry file="file://$PROJECT_DIR$/datstr/prgcrk/1string/py/61wordPattern.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/dfs/lexical_order.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-836">
-          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datstr/prgcrk/1string/py/61wordPattern.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/prgcrk/dfs/word_pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prgcrk/dfs/wildcard_match.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1066,17 +1069,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/dfs/word_pattern.py">
+    <entry file="file://$PROJECT_DIR$/intIO/min_num_of_coins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="345">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/dfs/lexical_order.py">
+    <entry file="file://$PROJECT_DIR$/practice.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="192">
+          <caret line="237" column="10" selection-start-line="237" selection-start-column="7" selection-end-line="237" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gfg_top10/string/all_possible_palindromic_partitions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/dp/coin_change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/dp/house_robber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/dp/jump_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
