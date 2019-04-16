@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de9855fa-b9c0-4648-9455-b0eb73cdaea8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/prgcrk/dp/coin_change.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prgcrk/dp/house_robber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prgcrk/dp/jump_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prgcrk/dp/edit_distance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/dp/word_break.py" beforeDir="false" afterPath="$PROJECT_DIR$/prgcrk/dp/word_break.py" afterDir="false" />
     </list>
     <list id="ed0e0b5d-45fd-40d5-be92-d6541e19b757" name="local_files" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,28 +16,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prgcrk/dp/coin_change.py">
+        <entry file="file://$PROJECT_DIR$/prgcrk/dp/word_break.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prgcrk/dp/house_robber.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="375">
+              <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prgcrk/dp/jump_game.py">
+        <entry file="file://$PROJECT_DIR$/prgcrk/dp/edit_distance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="225">
+              <caret line="11" column="49" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datstr/v3/8DP/probs/editDistance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -89,9 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/shortest_word_distance.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/intersection_of_2_arrays.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/binary_search/search_insert_pos.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/binary_search/min_rot_sort_arr.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/binary_search/len_longest_inc_subarr.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/binary_search/binary_search_impl.py" />
@@ -140,6 +136,9 @@
         <option value="$PROJECT_DIR$/prgcrk/dp/coin_change.py" />
         <option value="$PROJECT_DIR$/prgcrk/dp/house_robber.py" />
         <option value="$PROJECT_DIR$/prgcrk/dp/jump_game.py" />
+        <option value="$PROJECT_DIR$/prgcrk/dp/word_break.py" />
+        <option value="$PROJECT_DIR$/prgcrk/dp/min_wind_subseq.py" />
+        <option value="$PROJECT_DIR$/prgcrk/dp/edit_distance.py" />
       </list>
     </option>
   </component>
@@ -256,6 +255,51 @@
             <path>
               <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="v3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="v3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="8DP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="v3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="8DP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="probs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="v3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="11string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="v3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="11string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="probs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="v3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="11string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="probs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hard" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="gfg_top10" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -274,6 +318,19 @@
               <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pointers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -314,8 +371,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jump_game">
-    <configuration name="coin_change" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.edit_distance">
+    <configuration name="edit_distance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,7 +384,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/dp/coin_change.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/dp/edit_distance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,7 +435,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lexical_order" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="min_wind_subseq" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,11 +443,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/dfs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/dp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/dfs/lexical_order.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/dp/min_wind_subseq.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -399,7 +456,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="min_num_of_coins" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="word_break" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -407,11 +464,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intIO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/dp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intIO/min_num_of_coins.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/dp/word_break.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -422,11 +479,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.edit_distance" />
+        <item itemvalue="Python.min_wind_subseq" />
+        <item itemvalue="Python.word_break" />
         <item itemvalue="Python.jump_game" />
         <item itemvalue="Python.house_robber" />
-        <item itemvalue="Python.coin_change" />
-        <item itemvalue="Python.min_num_of_coins" />
-        <item itemvalue="Python.lexical_order" />
       </list>
     </recent_temporary>
   </component>
@@ -624,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555324930389</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="prgcrk - dp">
+      <created>1555379297036</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1555379297036</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -703,7 +767,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="test" />
     <MESSAGE value="refactor" />
     <MESSAGE value="parse tree" />
     <MESSAGE value="prgcrk - pointers" />
@@ -728,7 +791,8 @@
     <MESSAGE value="prgcrk - tree" />
     <MESSAGE value="prgcrk - tree - trie" />
     <MESSAGE value="prgcrk - dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="prgcrk - dfs" />
+    <MESSAGE value="prgcrk - dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="prgcrk - dp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -759,48 +823,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/subarray/two_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/subarray/max_size_subarr_sum_equals_k.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/subarray/max_subarr_prod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_with_k_rep_char.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashset/len_longest_conseq_seq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prgcrk/array_string/caching/majority_elem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -843,13 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/one_edit_distance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1089,21 +1104,64 @@
     <entry file="file://$PROJECT_DIR$/prgcrk/dp/coin_change.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prgcrk/dp/house_robber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prgcrk/dp/jump_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="405">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datstr/v3/11string/probs/hard/minWindSubstr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datstr/prgcrk/1string/py/29minWinSubstr.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/dp/min_wind_subseq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/dp/word_break.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/one_edit_distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datstr/v3/8DP/probs/editDistance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/dp/edit_distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="49" selection-end-line="31" />
         </state>
       </provider>
     </entry>
