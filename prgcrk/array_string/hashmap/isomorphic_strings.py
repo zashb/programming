@@ -7,22 +7,38 @@ comp: O(n)?
 """
 
 
+# def are_isomorphic(s, t):
+#     m, n = len(s), len(t)
+#     if m != n:
+#         return False
+#     if not m or not n:
+#         return False
+#     map_s, map_t = dict(), dict()
+#     for i in range(m):
+#         if s[i] in map_s:
+#             if t[i] != map_s[s[i]]:
+#                 return False
+#         else:
+#             if t[i] in map_t:
+#                 return False
+#             map_s[s[i]] = t[i]
+#             map_t[t[i]] = s[i]
+#     return True
+
+
 def are_isomorphic(s, t):
     m, n = len(s), len(t)
     if m != n:
         return False
     if not m or not n:
         return False
-    map_s, map_t = dict(), dict()
+    map_s = dict()
     for i in range(m):
         if s[i] in map_s:
             if t[i] != map_s[s[i]]:
                 return False
         else:
-            if t[i] in map_t:
-                return False
             map_s[s[i]] = t[i]
-            map_t[t[i]] = s[i]
     return True
 
 
