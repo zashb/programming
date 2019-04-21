@@ -21,6 +21,27 @@ def longest_contin_subarr(arr):
 
 
 # def longest_contin_subarr(arr):
+#     n = len(arr)
+#     if not arr or n == 0:
+#         return arr
+#     Set, Max = set(), 1
+#     for i in arr:
+#         Set.add(i)
+#     for i in arr:
+#         l, r, count = i - 1, i + 1, 1
+#         while l in Set:
+#             count += 1
+#             Set.remove(l)
+#             l -= 1
+#         while r in Set:
+#             count += 1
+#             Set.remove(r)
+#             r += 1
+#         Max = max(Max, count)
+#     return Max
+
+
+# def longest_contin_subarr(arr):
 #     lookup = set(arr)
 #     res = 0
 #     for i in arr:

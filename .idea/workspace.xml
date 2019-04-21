@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="de9855fa-b9c0-4648-9455-b0eb73cdaea8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/hard/longestConsecSeq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intIO/longest_continuous_subarr.py" beforeDir="false" afterPath="$PROJECT_DIR$/intIO/longest_continuous_subarr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/3longstSubstrWthtRepChar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/27lngstSubstrWithtRepchar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py" afterDir="false" />
     </list>
     <list id="ed0e0b5d-45fd-40d5-be92-d6541e19b757" name="local_files" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,50 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/bfs/word_ladder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/binary_search/binary_search_impl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/binary_search/len_longest_inc_subarr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/binary_search/min_rot_sort_arr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-67" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/binary_search/search_insert_pos.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intIO/longest_continuous_subarr.py">
+        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="319">
+              <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -111,19 +73,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/group_shifting.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/pal_pairs.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/isomorphic_strings.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/two_sum.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/max_subarr_prod.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/max_size_subarr_sum_equals_k.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/max_subarr_sum.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/num_subarr_sum_equals_k.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_with_k_rep_char.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/hashset/len_longest_conseq_arr.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/hashset/len_longest_conseq_seq.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/caching/majority_elem.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/heap/k_most_freq.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/heap/meeting_rooms.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/heap/meeting_rooms2.py" />
@@ -162,6 +119,11 @@
         <option value="$PROJECT_DIR$/prgcrk/graph/reconstruct_itinerary.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/binary_search/len_longest_inc_subarr.py" />
         <option value="$PROJECT_DIR$/intIO/longest_continuous_subarr.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/caching/majority_elem.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/isomorphic_strings.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/pal_pairs.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/valid_anagram.py" />
+        <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py" />
       </list>
     </option>
   </component>
@@ -257,6 +219,33 @@
               <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="leetMed" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="1string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="1string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="py" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="v3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -304,14 +293,14 @@
               <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="bfs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hashmap_tracking" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="binary_search" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hashset" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -353,7 +342,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.longest_continuous_subarr">
-    <configuration name="course_schedule" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="27lngstSubstrWithtRepchar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,11 +350,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datstr/prgcrk/1string/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/graph/course_schedule.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datstr/prgcrk/1string/py/27lngstSubstrWithtRepchar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -374,7 +363,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="len_longest_inc_subarr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="58validAnagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -382,32 +371,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/array_string/binary_search" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datstr/prgcrk/1string/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/array_string/binary_search/len_longest_inc_subarr.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="longestConsecSeq" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datstr/v3/11string/probs/hard" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datstr/v3/11string/probs/hard/longestConsecSeq.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datstr/prgcrk/1string/py/58validAnagram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -437,7 +405,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reconstruct_itinerary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="longest_substr_without_repeat_char" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -445,11 +413,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/graph/reconstruct_itinerary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="valid_anagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/array_string/hashmap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/array_string/hashmap/valid_anagram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -461,10 +450,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.longest_continuous_subarr" />
-        <item itemvalue="Python.longestConsecSeq" />
-        <item itemvalue="Python.len_longest_inc_subarr" />
-        <item itemvalue="Python.reconstruct_itinerary" />
-        <item itemvalue="Python.course_schedule" />
+        <item itemvalue="Python.longest_substr_without_repeat_char" />
+        <item itemvalue="Python.27lngstSubstrWithtRepchar" />
+        <item itemvalue="Python.valid_anagram" />
+        <item itemvalue="Python.58validAnagram" />
       </list>
     </recent_temporary>
   </component>
@@ -683,7 +672,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555805498588</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="longest contin consolidate">
+      <created>1555857721857</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1555857721857</updated>
+    </task>
+    <task id="LOCAL-00031" summary="prgcrk - hashmap">
+      <created>1555864501492</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1555864501492</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -696,9 +699,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="977" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1308017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15189873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -762,8 +764,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="parse tree" />
-    <MESSAGE value="prgcrk - pointers" />
     <MESSAGE value="prgcrk - arrays_strings - pattern 3" />
     <MESSAGE value="prgcrk - arrays_strings - pointer" />
     <MESSAGE value="prgcrk - arrays_strings - pointer - pattern4" />
@@ -787,7 +787,9 @@
     <MESSAGE value="prgcrk - dfs" />
     <MESSAGE value="prgcrk - dp" />
     <MESSAGE value="prgcrk - graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="prgcrk - graph" />
+    <MESSAGE value="longest contin consolidate" />
+    <MESSAGE value="prgcrk - hashmap" />
+    <option name="LAST_COMMIT_MESSAGE" value="prgcrk - hashmap" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -823,66 +825,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/datstr/v3/3BasicDS/probs/cycle.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gfg_top10/graph/mst_prim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctci/v1/tree_graph/graph/has_cycle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="37" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/sum_lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/is_pal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/beg_of_loop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/has_cycle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gfg_top10/tree/TreeNode.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/gfg_top10/tree/min_depth_bin_Tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1140,13 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/intIO/longest_continuous_subarr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prgcrk/array_string/binary_search/len_longest_inc_subarr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1161,6 +1096,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prgcrk/array_string/binary_search/search_insert_pos.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intIO/longest_continuous_subarr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/caching/majority_elem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap/isomorphic_strings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap/pal_pairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datstr/prgcrk/1string/py/58validAnagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" lean-forward="true" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap/valid_anagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datstr/prgcrk/1string/py/27lngstSubstrWithtRepchar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datstr/leetMed/3longstSubstrWthtRepChar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="7" selection-start-line="7" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_with_k_rep_char.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
