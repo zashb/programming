@@ -16,6 +16,7 @@ ___
     + Comp : O(V + E)
     + Look for **"prerequiste", "dependency"**
     + Only sorting algorithm for graph vertices
+    + Only for DAG (directed acyclic graph)
 + Heap
     + Comp : O(n log n)
     + Either by .heapify() or .push() to empty heap
