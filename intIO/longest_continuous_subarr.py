@@ -41,3 +41,13 @@ arr = [5, 2, 99, 3, 4, 100, 1, 49, 5]
 expected = 5
 actual = longest_contin_subarr(arr)
 print(expected == actual)
+
+arr = [100, 4, 200, 1, 3, 2]
+expected = 4
+actual = longest_contin_subarr(arr)
+print(expected == actual)
+
+arr = [100, 4, 200, 1, 3, 2, 5, 6, 201, 202, 203, 204, 205]
+expected = 6
+actual = longest_contin_subarr(arr)
+print(expected == actual)
