@@ -3,23 +3,29 @@ install dependencies before installing packages
 idea : topological sort
 comp : same as dfs = O(V+E)
 """
-from programming.gfg_top10.graph.Graph import Graph
+from gfg_top10.graph.Graph import Graph
 
 
-def topological_sort(g):
-    visited = {v: False for v in g.vertex_set}
-    res = []
+def package_dependencies(g):
+    if not g:
+        return -1
+    res, visited, visiting = [], set(), set()
 
-    def ts_util(g, visited, v, res):
-        if visited[v] == False:
-            visited[v] = True
-            adj_list = g.graph[v]
-            for adj_v in adj_list:
-                ts_util(g, visited, adj_v, res)
-            res.append(v)
+    def dfs(v):
+        if v in visited:
+            return
+        visiting.add(v)
+        for adj_v in g.graph[v]:
+            if adj_v in visiting:
+                raise Exception("have cycle in dependencies")
+            if adj_v not in visited:
+                dfs(adj_v)
+        visiting.remove(v)
+        visited.add(v)
+        res.append(v)
 
     for v in g.vertex_set:
-        ts_util(g, visited, v, res)
+        dfs(v)
     return res
 
 
@@ -30,7 +36,22 @@ g.add_edge(4, 0)
 g.add_edge(4, 1)
 g.add_edge(2, 3)
 g.add_edge(3, 1)
-topological_sort(g)
+package_dependencies(g)
 expected = [0, 1, 3, 2, 4, 5]
 actual = [0, 1, 3, 2, 4, 5]
+print(expected == actual)
+
+g = Graph()
+g.add_edge(0, 1)
+package_dependencies(g)
+expected = [0, 1]
+actual = [0, 1]
+print(expected == actual)
+
+g = Graph()
+g.add_edge(0, 1)
+g.add_edge(1, 0)
+package_dependencies(g)
+expected = [0, 1]
+actual = [0, 1]
 print(expected == actual)
