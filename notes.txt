@@ -1,0 +1,199 @@
+notes:
+
+BIAS
+- how close is the prediction to actual
+- error due to overly simplistic model
+- lead to underfitting data
+
+VARIANCE
+- how much does prediction fluctuates for different data
+- error due to highly complex model
+- lead to overfitting data
+
+OVERFIT
+- too complex model
+- discrepancy between train and test models
+- regularization
+
+UNDERFIT
+- too simple model
+- train and test models similar and bad
+
+KNN
+- prediction: algo finds nearest points
+- hyperparameters: #neighbors, distance
+- good: baseline, simple
+- bad: sparse dataset, slow predictions, many features
+
+LINEAR MODELS FOR REGRESSION
+- prediction: line or plane or hyperplane
+- yhat = b + w0*x0 + w1*x1 + ... + wn*xn
+- differet models learn parameters (w's) and intercept (b) differently
+
+LINEAR REGRESSION
+- metric: MSE (sum of squared differences between predicted and actual values divided by #samples)
+- good: no parameters
+- bad: no control over model complexity
+
+RIDGE
+- L2: w's should be close to zero
+- hyperparameters: alpha(log scale: 0.01,0.1,1,10,100), higher alpha, higher regularization, smaller coefficients
+
+LASSO
+- L1: some w's are exactly 0, feature selection
+- hyperparameters: alpha(log scale: 0.01,0.1,1,10,100), higher alpha, higher regularization, smaller coefficients, max_iter(should vary inversely as alpha)
+
+LINEAR MODELS FOR CLASSIFICATION
+- yhat = b + w0*x0 + w1*x1 + ... + wn*xn > 0
+- if yhat > 0, prediction = +1, if yhat < 0, prediction = -1
+- differet models learn parameters (w's) and intercept (b) differently and how model complexity is controlled
+- can only model linear relationships
+- assumptions: examples are IID according to an unknown distribution, data is not presented in any order, model induced biases,
+
+LOGISTIC
+- https://machinelearningmastery.com/logistic-regression-for-machine-learning/
+- logistic funcion is between 0 and 1
+- https://stackoverflow.com/questions/38640109/logistic-regression-python-solvers-defintions
+- assumptions: no outliers, linear relationship between i/p and o/p variables
+- find the best Parameters (a.k.a Thetas or Weights) that give us the least error(cost / loss function) in predicting the output i.e., minimize loss function
+- relation between the parameter value and its effect on the cost function (i.e. the error) looks like a inverted bell curve
+- minimizer: newton's method to minimize quadratic loss function
+- L2 regularization by default
+- hyperparameters: C (varies inversely as alpha)
+- unknown parameters are estimated by maximum likelihood: L = pie(1 to n) (pi**yi * (1-pi)**(1-yi)), likelihood and joint probability go together
+- likelihood intuition: if we compare likelihood function of 2 points and find that L(theta1|x) > L(theta2|x) then the sample we observed is more likely to have occurred if theta=theta1 than if theta=theta2
+- logistic transformation: log(p/(1-p)) = b0+(x*b)
+- sensitive to scaling
+- Because logistic regression predicts probabilities, rather than just classes, we can fit it using likelihood
+- https://www.stat.rutgers.edu/home/pingli/papers/Logit.pdf
+- Entropy is a measure of the uncertainty associated with a given distribution q(y).
+- Kullback-Leibler loss/log-loss/cross-entropy: measures the uncertainty of the probabilities of your model by comparing them to the true labels, soft measurement
+- https://www.quora.com/What-is-an-intuitive-explanation-for-the-log-loss-function
+
+SVM
+- maximum margin classification
+- loss func: hinge loss
+- L2 regularization
+- support vectors are the data points that lie on the margin of seperation
+- prediction is made by computing distances to support vectors
+- kernel trick: computing the distance (more precisely, the scalar products) of the data points for the expanded feature representation, without ever actually computing the expansion.
+    - the polynomial kernel, which computes all possible polynomials up to a certain degree of the original features (like feature1 ** 2 * feature2 ** 5 )
+    - radial/Gaussian kernel corresponds to an infinite-dimensional feature space. it considers all possible polynomials of all degrees, but the importance of the features decreases for higher degrees.
+- hyperparameters: gamma, C(regularization)
+- good: works well on smaller datasets
+- bad: scaling the features, difficult to interpret,
+
+RANDOM FOREST
+- build many trees, all of which work well and overfit in different ways, we can reduce the amount of overfitting by averaging their results.
+- random selection of data points used to build a tree and selecting the features in each split test
+- hyperparameters: n_estimators, n_samples, max_features(if max_features=n_features, no randomness | max_features=n_features**0.5 for classification max_features=n_features for regression), random_state
+- bootstrap: repeatedly drawing random samples with replacement creating a dataset as big as the original
+- all trees are different
+- each tree provides a soft prediction, the probabilities are averaged and class with highest probability is predicted
+- good: robust baseline, powerful, heavy tuning not required, scaling not required, works well with binary and continuous features, parallelize
+- bad: high dimensional sparse data, require more memory, slower to train and predict than linear models
+
+GRADIENT BOOSTED MACHINES
+- combine several weak learners
+- strong pre-pruning by limiting max_depth or learning_rate
+- bad: sensitive to hyperparameter tuning, slower to train
+- good: faster predictions, squeeze out last % of accuracy, scaling not required, works well with binary and continuous features
+- hyperparameters: learning_rate, max_depth, n_estimators
+
+UNCERTAINITY ESTIMATE
+- predict_proba has shape (n_samples, n_classes)
+- prediction = argmax(predict_proba) or classes_
+
+SUMMARY - Pg 127 (introduction to machine learning with python)
+
+UNSUPERVISED LEARNING
+- example: clustering, topic modelling, dimensionality reduction, exploratory analysis
+- bad: not knowing whether model did well
+
+PCA
+- https://towardsdatascience.com/a-step-by-step-explanation-of-principal-component-analysis-b836fb9c97e2
+- Linear dimensionality reduction using SVD of data to project it to lower dimensional space
+- trading accuracy for simplicity
+- 1: sensitive to feature scaling (variables with larger ranges will dominate over those with small ranges)
+- 2: covariance matrix: see if there is relationship between variables, if +ve, 2 vars inc/dec together
+- 3: eigen values and vectors:
+    - every eigenvector has an eigenvalue
+    - a 3-dimensional data set, there are 3 variables, therefore there are 3 eigenvectors with 3 corresponding eigenvalues.
+    - eigenvectors of the Covariance matrix are actually the directions of the axes where there is the most variance
+    - eigenvalues are simply the coefficients attached to eigenvectors, which give the amount of variance carried in each Principal Component
+    - By ranking your eigenvectors in order of their eigenvalues, highest to lowest, you get the principal components in order of significance.
+- 4: feature vector: a matrix that has as columns the eigenvectors of the components that we decide to keep
+- Principal components: new variables that are constructed as linear combinations or mixtures of the initial variables such that they are uncorrelated and most of the information within the initial variables is squeezed or compressed into the first components.
+    - less interpretable
+    - represent the directions of the data that explain a maximal amount of variance/information
+    - constructed in such a manner that the first principal component accounts for the largest possible variance in the data set
+    - The second principal component is calculated in the same way, with the condition that it is uncorrelated with (i.e., perpendicular to) the first principal component and that it accounts for the next highest variance.
+    - This continues until a total of p principal components have been calculated, equal to the original number of variables.
+
+KMEANS
+- assign each data point to nearest center then update center = mean(data points assigned to it)
+- bad: relatively simple shapes, similar diameter for all clusters, boundary exactly at center, random initialization, need to set #clusters priori
+- vector quantization: decomposition method, each point represented using cluster center, more clusters than input features
+
+AGGLOMERATIVE
+- declaring each point its own cluster, and then merges the two most similar clusters until some stopping criterion is satisfied.
+- similarity: linkage
+- ward:
+- average: merges the two clusters that have the smallest average distance between all their points.
+- complete: merges the two clusters that have the smallest maximum distance between their points.
+
+DBSCAN
+- If there are at least min_samples many data points within a distance of eps to a given data point, that data point is classified as a core sample. Core samples that are closer to each other than the distance eps are put into the same cluster
+- core points, boundary points, noise
+
+EVALUATE CLUSTER METRICS
+- with ground truth: adjusted rand index, normalized mutual information
+- without ground truth: silhouette coefficient
+
+P-VALUE
+- https://en.m.wikipedia.org/wiki/P-value
+- https://towardsdatascience.com/data-science-you-need-to-know-a-b-testing-f2f12aff619a
+- in hypothesis testing, if p-value < chosen alpha(0.05,0.01) => null hypothesis may be rejected. Type-I error rate is atmost alpha
+
+FEATURE SELECTION
+- comes under supervised learning
+- variance threshold, univariate stats, model based, recursive feature elimination
+- univariate:
+    - feature selection with F-test for feature scoring
+    - anova f-value
+    - selectKBest, selectPercentile
+- rfe:
+    - First, the estimator is trained on the initial set of features and the importance of each feature is obtained either through a coef_ attribute or through a feature_importances_ attribute.
+    - Then, the least important features are pruned from current set of features. That procedure is recursively repeated on the pruned set until the desired number of features to select is eventually reached.
+- model based
+    - L1 regularization
+    - tree based
+
+MODEL SELECTION
+- cross validation: evaluation of generalization performance
+    - training proceeds on the training set, after which evaluation is done on the validation set, and when the experiment seems to be successful, final evaluation can be done on the test set.
+    - k fold: data is split into k folds, A model is trained using (k-1) of the folds as training data; the resulting model is validated on the remaining part of the data
+    - The performance measure reported by k-fold cross-validation is then the average of the values computed in the loop
+    - cross_val_score
+    - LOOCV: Each learning set is created by taking all the samples except one, the test set being the sample left out
+    - StratifiedKFold: each fold contains approximately the same percentage of samples of each target class as the complete set.
+- Tuning hyperparameters: Hyper-parameters are parameters that are not directly learnt within estimators
+    - search for best hyperparameters consists of: an estimator, a parameter space; a method for searching or sampling candidates;a cross-validation scheme; a score function.
+    - Gridsearchcv
+
+MODEL EVALUATION
+- estimators have score(), model_selection.cross_val_score(), model_selection.GridSearchCV(), metrics.accuracy, metrics.f1 etc.
+- logloss / logistic regression loss / cross-entropy loss
+    - is defined on probability estimates
+    - non-negative
+    - commonly used in (multinomial) logistic regression and neural networks, as well as in some variants of expectation-maximization, and can be used to evaluate the probability outputs (predict_proba) of a classifier instead of its discrete predictions
+    - from sklearn.metrics import log_loss;  y_true = [0, 0, 1, 1]; y_pred = [[.9, .1], [.8, .2], [.3, .7], [.01, .99]]; log_loss(y_true, y_pred)
+- ROC
+    - TPR vs FPR at various threshold settings.
+    - TPR is also known as sensitivity, and FPR is one minus the specificity or true negative rate.
+- MSE
+- MAE
+    - robust to outliers
+    - calculated by taking the median of all absolute differences between the target and the prediction
+- R2
+    - coefficient of determination
