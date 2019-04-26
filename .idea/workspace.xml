@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de9855fa-b9c0-4648-9455-b0eb73cdaea8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datstr/leetMed/3longstSubstrWthtRepChar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/27lngstSubstrWithtRepchar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
     </list>
     <list id="ed0e0b5d-45fd-40d5-be92-d6541e19b757" name="local_files" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +14,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/candy.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prgcrk/graph/course_schedule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="410">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intIO/dependency_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prgcrk/array_string/heap/k_most_freq.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datstr/v3/11string/probs/trapRainWater.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/notes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="50" column="13" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -53,6 +88,10 @@
       <find>pal</find>
       <find>cucl</find>
       <find>longest i</find>
+      <find>crf</find>
+      <find>loss</find>
+      <find>assum</find>
+      <find>assumptions</find>
     </findStrings>
     <replaceStrings>
       <replace>TreeNode</replace>
@@ -73,8 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/two_sum.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/max_subarr_prod.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/max_size_subarr_sum_equals_k.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/max_subarr_sum.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/subarray/num_subarr_sum_equals_k.py" />
@@ -118,12 +155,14 @@
         <option value="$PROJECT_DIR$/prgcrk/graph/course_schedule.py" />
         <option value="$PROJECT_DIR$/prgcrk/graph/reconstruct_itinerary.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/binary_search/len_longest_inc_subarr.py" />
-        <option value="$PROJECT_DIR$/intIO/longest_continuous_subarr.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/caching/majority_elem.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/isomorphic_strings.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/pal_pairs.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/valid_anagram.py" />
+        <option value="$PROJECT_DIR$/intIO/longest_continuous_subarr.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py" />
+        <option value="$PROJECT_DIR$/intIO/dependency_sort.py" />
+        <option value="$PROJECT_DIR$/notes.txt" />
       </list>
     </option>
   </component>
@@ -210,104 +249,6 @@
               <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="leetMed" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="1string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="1string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="py" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="v3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="v3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="11string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="v3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="11string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="probs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="datstr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="v3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="11string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="probs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hard" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="intIO" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hashmap_tracking" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hashset" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="graph" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -316,16 +257,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/prgcrk/array_string/hashmap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/prgcrk/array_string/hashmap" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/prgcrk/array_string/pointers" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/prgcrk/array_string/hashmap" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -341,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.longest_continuous_subarr">
+  <component name="RunManager" selected="Python.dependency_sort">
     <configuration name="27lngstSubstrWithtRepchar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -363,7 +304,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="58validAnagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dependency_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,11 +312,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datstr/prgcrk/1string/py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intIO" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datstr/prgcrk/1string/py/58validAnagram.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intIO/dependency_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -426,7 +367,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="valid_anagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="meeting_rooms2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -434,11 +375,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/array_string/hashmap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prgcrk/array_string/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/array_string/hashmap/valid_anagram.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prgcrk/array_string/heap/meeting_rooms2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -449,11 +390,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dependency_sort" />
+        <item itemvalue="Python.meeting_rooms2" />
         <item itemvalue="Python.longest_continuous_subarr" />
         <item itemvalue="Python.longest_substr_without_repeat_char" />
         <item itemvalue="Python.27lngstSubstrWithtRepchar" />
-        <item itemvalue="Python.valid_anagram" />
-        <item itemvalue="Python.58validAnagram" />
       </list>
     </recent_temporary>
   </component>
@@ -686,7 +627,28 @@
       <option name="project" value="LOCAL" />
       <updated>1555864501492</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="prgcrk - hashmap">
+      <created>1555874233707</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1555874233707</updated>
+    </task>
+    <task id="LOCAL-00033" summary="intIO - topological sort">
+      <created>1556152160468</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1556152160468</updated>
+    </task>
+    <task id="LOCAL-00034" summary="ml notes">
+      <created>1556243759183</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1556243759183</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -699,13 +661,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="977" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15189873" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15189873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946634" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22737819" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22737819" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -764,8 +727,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="prgcrk - arrays_strings - pattern 3" />
-    <MESSAGE value="prgcrk - arrays_strings - pointer" />
     <MESSAGE value="prgcrk - arrays_strings - pointer - pattern4" />
     <MESSAGE value="prgcrk - arrays_strings - pointer - pattern5, pattern6" />
     <MESSAGE value="prgcrk - arrays_strings - pointer - pattern7, pattern8" />
@@ -789,7 +750,9 @@
     <MESSAGE value="prgcrk - graph" />
     <MESSAGE value="longest contin consolidate" />
     <MESSAGE value="prgcrk - hashmap" />
-    <option name="LAST_COMMIT_MESSAGE" value="prgcrk - hashmap" />
+    <MESSAGE value="intIO - topological sort" />
+    <MESSAGE value="ml notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="ml notes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -825,61 +788,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gfg_top10/tree/min_depth_bin_Tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctci/v1/tree_graph/tree/tree_traversals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctci/v1/tree_graph/tree/validate_BST.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gfg_top10/tree/max_sum_path.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/tree/tree_node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="49" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctci/v1/tree_graph/tree/bst_intro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/tree/kth_smallest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/tree/flatten_bin_tree_to_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/approach2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1042,13 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/graph/course_schedule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intIO/pow_implementation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-62" />
@@ -1096,13 +997,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prgcrk/array_string/binary_search/search_insert_pos.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intIO/longest_continuous_subarr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prgcrk/array_string/caching/majority_elem.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1156,10 +1050,68 @@
     <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_with_k_rep_char.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/intIO/longest_continuous_subarr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashset/len_longest_conseq_seq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        <state relative-caret-position="394">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/heap/meeting_rooms.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/heap/meeting_rooms2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/candy.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/graph/course_schedule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intIO/dependency_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/heap/k_most_freq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datstr/v3/11string/probs/trapRainWater.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="13" />
         </state>
       </provider>
     </entry>

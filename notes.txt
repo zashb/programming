@@ -184,6 +184,7 @@ MODEL SELECTION
 MODEL EVALUATION
 - estimators have score(), model_selection.cross_val_score(), model_selection.GridSearchCV(), metrics.accuracy, metrics.f1 etc.
 - logloss / logistic regression loss / cross-entropy loss
+    - -(y*logp + (1-y)*log(1-p))
     - is defined on probability estimates
     - non-negative
     - commonly used in (multinomial) logistic regression and neural networks, as well as in some variants of expectation-maximization, and can be used to evaluate the probability outputs (predict_proba) of a classifier instead of its discrete predictions
@@ -197,3 +198,25 @@ MODEL EVALUATION
     - calculated by taking the median of all absolute differences between the target and the prediction
 - R2
     - coefficient of determination
+
+MLE
+- answers the question - what value of x best explains the observed value, y.
+- find the value of x that maximizes p(y|x)
+
+MAP
+- answers the question - what is the best possible value of x given the fact that the observation has a value y.
+- find the value of x that maximizes p(x|y).
+
+CRF
+- logistic regression is a log-linear model for classification, CRFs are a log-linear model for sequential labels
+
+A/B TEST
+- Two-sample t-test is used when the data of two samples are statistically independent, while the paired t-test is used when data is in the form of matched pairs
+
+Value At Risk(VAR)
+- statistical model used to estimate the level of risk connected with a portfolio or company. VaR estimates the maximum potential decline with a degree of reliance for a specified period.
+- For example, assume a portfolio of investments has a one-year 10 per cent VAR of $5 million. Consequently, the portfolio has a 10 per cent probability of losing more than $5 million over a one-year period.
+
+Conditional VAR
+- estimate the tail risk of an investment.
+- Used as an extension to VaR, the conditional VaR estimates the likelihood, with a particular degree of confidence, that there will be a break in the VaR; it seeks to assess what happens to an investment exceeding its maximum loss threshold. This measure is more susceptible to events that happen in the tail end of distribution – the tail risk. For illustration, a risk manager thinks the average loss on an investment is $10 million for the worst 1 per cent of potential outcomes for a portfolio. Therefore, the conditional VaR, or anticipated shortfall, is $10 million for the 1 per cent tail.
