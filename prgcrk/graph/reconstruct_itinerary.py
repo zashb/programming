@@ -14,20 +14,35 @@ from collections import defaultdict
 
 
 def findItinerary(tickets):
-    targets = defaultdict(list)
-    sorted_tickets = sorted(tickets, key=lambda x: x[0])
-    for a, b in sorted_tickets:
-        targets[a].append(b)
-    route = []
+    # targets = defaultdict(list)
+    # sorted_tickets = sorted(tickets, key=lambda x: x[0])
+    # for a, b in sorted_tickets:
+    #     targets[a].append(b)
+    # route = []
+    #
+    # def visit(airport):
+    #     while targets[airport]:
+    #         destination = targets[airport].pop()
+    #         visit(destination)
+    #     route.append(airport)
+    #
+    # visit('JFK')
+    # return route[::-1]
 
-    def visit(airport):
-        while targets[airport]:
-            destination = targets[airport].pop()
-            visit(destination)
-        route.append(airport)
+    if not tickets:
+        return -1
+    sd_dic, res = defaultdict(list), []
+    for s, d in tickets:
+        sd_dic[s].append(d)
 
-    visit('JFK')
-    return route[::-1]
+    def dfs(s):
+        while sd_dic[s]:
+            d = sd_dic[s].pop()
+            dfs(d)
+        res.append(s)
+
+    dfs('JFK')
+    return res[::-1]
 
 
 expected = ["JFK", "MUC", "LHR", "SFO", "SJC"]
