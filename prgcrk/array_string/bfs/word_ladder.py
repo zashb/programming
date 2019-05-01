@@ -42,22 +42,19 @@
 # To check if strings differ by exactly one character
 def is_adjacent(a, b):
     count = 0
-    n = len(a)
     # Iterate through all characters and return false if there are more than one mismatching characters
-    for i in range(n):
+    for i in range(len(a)):
         if a[i] != b[i]:
             count += 1
         if count > 1:
             break
-
-    return True if count == 1 else False
+    return count == 1
 
 
 # Returns length of shortest chain to reach 'target' from 'start' using minimum number of adjacent moves
 def shortest_chain_len(start, target, word_dict):
     # Create a queue for BFS and insert 'start' as source vertex
-    item = [start, 1]
-    stack = [item]
+    stack = [[start, 1]]
     while len(stack) > 0:
         curr = stack.pop()
         # Go through all words of dictionary
@@ -66,8 +63,7 @@ def shortest_chain_len(start, target, word_dict):
             temp = i
             if is_adjacent(curr[0], temp):
                 # Add the dictionary word to Q
-                item[0] = temp
-                item[1] = curr[1] + 1
+                item = [temp, curr[1] + 1]
                 stack.append(item)
                 # Remove from dictionary so that this word is not processed again. This is like marking visited
                 word_dict.remove(temp)

@@ -13,28 +13,25 @@ comp: O(n logn)
 """
 
 
-def len_lcs(arr):
-    n = len(arr)
-    if not arr or n == 0:
+def len_lis(arr):
+    if not arr or len(arr) == 0:
         return -1
     res = []
     for i in arr:
-        n_res = len(res)
-        if n_res == 0 or i > res[-1]:
+        if len(res) == 0 or i > res[-1]:
             res.append(i)
         else:
-            l, r = 0, n_res - 1
+            l, r = 0, len(res) - 1
             while l < r:
                 mid = (l + r) // 2
                 if i > res[mid]:
                     l = mid + 1
                 else:
                     r = mid
-            # replace elem as per idea
             res[r] = i
     return len(res)
 
 
 expected = 4
-actual = len_lcs([10, 9, 2, 5, 3, 7, 101, 18])
+actual = len_lis([10, 9, 2, 5, 3, 7, 101, 18])
 print(expected == actual)

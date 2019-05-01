@@ -8,37 +8,31 @@ comp: O(n)?
 
 
 # def are_isomorphic(s, t):
-#     m, n = len(s), len(t)
-#     if m != n:
+#     if not s or not t:
 #         return False
-#     if not m or not n:
+#     if len(s) != len(t):
 #         return False
-#     map_s, map_t = dict(), dict()
-#     for i in range(m):
-#         if s[i] in map_s:
-#             if t[i] != map_s[s[i]]:
-#                 return False
-#         else:
-#             if t[i] in map_t:
-#                 return False
-#             map_s[s[i]] = t[i]
-#             map_t[t[i]] = s[i]
-#     return True
+#     d1, d2 = {}, {}
+#     for i in range(len(s)):
+#         d1[s[i]] = d1.get(s[i], []) + [i]
+#         d2[t[i]] = d2.get(t[i], []) + [i]
+#     return sorted(d1.values()) == sorted(d2.values())
 
-
-def are_isomorphic(s, t):
-    m, n = len(s), len(t)
-    if m != n:
+def are_isomorphic(s1, s2):
+    if not s1 or not s2:
         return False
-    if not m or not n:
+    if len(s1) != len(s2):
         return False
-    map_s = dict()
-    for i in range(m):
-        if s[i] in map_s:
-            if t[i] != map_s[s[i]]:
+    d1, d2 = dict(), dict()
+    for i in range(len(s1)):
+        if s1[i] in d1:
+            if d1[s1[i]] != s2[i]:
                 return False
         else:
-            map_s[s[i]] = t[i]
+            if s2[i] in d2:
+                return False
+            d1[s1[i]] = s2[i]
+            d2[s2[i]] = s1[i]
     return True
 
 
@@ -48,4 +42,8 @@ print(expected == actual)
 
 expected = False
 actual = are_isomorphic("foo", "bar")
+print(expected == actual)
+
+expected = False
+actual = are_isomorphic("bar", "foo")
 print(expected == actual)
