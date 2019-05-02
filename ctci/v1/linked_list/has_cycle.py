@@ -1,7 +1,7 @@
 """
 prob:
 idea:
-comp:
+comp: O(n)
 """
 from ctci.v1.linked_list.linked_list import LinkedList, LinkedListNode
 
