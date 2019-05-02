@@ -14,16 +14,24 @@ def is_subsequence(s, t):
         return True
     if not s and t:
         return False
-    m, n, i, j = len(s), len(t), 0, 0
-    while i < m and j < n:
-        if s[i] == t[j]:
-            i += 1
-        j += 1
-        if i == m:
+    si, ti = 0, 0
+    while si < len(s) and ti < len(t):
+        if s[si] == t[ti]:
+            si += 1
+        ti += 1
+        if si == len(s):
             return True
     return False
 
 
 expected = True
 actual = is_subsequence("ace", "abcde")
+print(expected == actual)
+
+expected = False
+actual = is_subsequence("aec", "abcde")
+print(expected == actual)
+
+expected = True
+actual = is_subsequence("abc", "abcde")
 print(expected == actual)
