@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de9855fa-b9c0-4648-9455-b0eb73cdaea8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/prgcrk/linked_list/LinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prgcrk/linked_list/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/intersection_of_2_arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/prgcrk/array_string/pointers/intersection_of_2_arrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/is_subsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/prgcrk/array_string/pointers/is_subsequence.py" afterDir="false" />
     </list>
     <list id="ed0e0b5d-45fd-40d5-be92-d6541e19b757" name="local_files" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +43,31 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/min_size_subarr_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="345">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prgcrk/linked_list/LinkedList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/sum_lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,6 +106,7 @@
       <find>assumptions</find>
       <find>heapq</find>
       <find>negative</find>
+      <find>carry</find>
     </findStrings>
     <replaceStrings>
       <replace>TreeNode</replace>
@@ -106,8 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/prgcrk/array_string/hashset/len_longest_conseq_seq.py" />
-        <option value="$PROJECT_DIR$/prgcrk/array_string/heap/k_most_freq.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/heap/meeting_rooms.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/heap/meeting_rooms2.py" />
         <option value="$PROJECT_DIR$/prgcrk/matrix/search_matrix.py" />
@@ -157,6 +176,8 @@
         <option value="$PROJECT_DIR$/prgcrk/array_string/hashmap/isomorphic_strings.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/intersection_of_2_arrays.py" />
         <option value="$PROJECT_DIR$/prgcrk/array_string/pointers/is_subsequence.py" />
+        <option value="$PROJECT_DIR$/prgcrk/linked_list/LinkedList.py" />
+        <option value="$PROJECT_DIR$/prgcrk/linked_list/add_2num_list.py" />
       </list>
     </option>
   </component>
@@ -246,76 +267,31 @@
             <path>
               <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ctci" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ctci" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="v1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ctci" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="v1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="linked_list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="bfs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="binary_search" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="caching" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hashmap" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hashmap_tracking" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hashset" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="heap" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pointers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="subarray" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="linked_list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -765,7 +741,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556676797518</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="prgcrk - minor edits">
+      <created>1556764924308</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1556764924308</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -905,30 +888,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap/valid_anagram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datstr/prgcrk/1string/py/27lngstSubstrWithtRepchar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datstr/leetMed/3longstSubstrWthtRepChar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="7" selection-start-line="7" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_with_k_rep_char.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/prgcrk/array_string/hashset/len_longest_conseq_seq.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1183,8 +1142,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prgcrk/array_string/pointers/min_size_subarr_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="345">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/linked_list/add_2num_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prgcrk/linked_list/LinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctci/v1/linked_list/sum_lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
