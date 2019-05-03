@@ -3,6 +3,7 @@ import unittest
 
 
 # https://www.cs.cmu.edu/~adamchik/15-121/lectures/Trees/trees.html
+# https://www.geeksforgeeks.org/complexity-different-operations-binary-tree-binary-search-tree-avl-tree/
 class Node:
     def __init__(self, val):
         self.val = val
@@ -10,6 +11,7 @@ class Node:
         self.right = None
 
 
+# O(h)
 def insert(root, new_node):
     # recursion without return
     if root is None:
@@ -27,6 +29,7 @@ def insert(root, new_node):
                 insert(root.left, new_node)
 
 
+# comp: time-O(n), space-O(1) if Function Call Stack size is not considered, otherwise O(n)
 def is_bst(root):
     return is_bst_util(root, -1 * sys.maxsize, sys.maxsize)
 
