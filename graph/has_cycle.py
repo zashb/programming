@@ -3,12 +3,20 @@ prob: has cycle
 idea: dfs, rec_stack
 comp:
 """
-from gfg_top10.graph.Graph import Graph
+from graph.graph_class import Graph
 
 
-def has_cycle(g):
-    visited = {v: False for v in g.vertex_set}
-    rec_stack = {v: False for v in g.vertex_set}
+def has_cycle(edges):
+    if not edges:
+        return False
+
+    graph = Graph()
+
+    for edge in edges:
+        graph.add_edge(edge[0], edge[1])
+
+    visited = {v: False for v in graph.vertex_set}
+    rec_stack = {v: False for v in graph.vertex_set}
 
     def has_cycle_util(g, v, visited, rec_stack):
         if not visited[v]:
@@ -23,18 +31,12 @@ def has_cycle(g):
         rec_stack[v] = False
         return False
 
-    for v in g.vertex_set:
-        if has_cycle_util(g, v, visited, rec_stack):
+    for v in graph.vertex_set:
+        if has_cycle_util(graph, v, visited, rec_stack):
             return True
     return False
 
 
-g = Graph()
-g.add_edge(1, 2)
-g.add_edge(2, 3)
-g.add_edge(3, 4)
-g.add_edge(3, 5)
-g.add_edge(3, 1)  # has cycle
 expected = True
-actual = has_cycle(g)
+actual = has_cycle([[1, 2], [2, 3], [3, 4], [3, 5], [3, 1]])
 print(expected == actual)

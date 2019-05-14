@@ -1,37 +1,32 @@
-import unittest
 from collections import deque
 
-from programming.gfg_top10.graph.Graph import Graph
+from graph.graph_class import Graph
 
 
-def get_bfs(g, start):
-    visited = {v: False for v in g.vertex_set}
+def bfs(edges, s):
+    if not edges and not s:
+        return None
+
+    graph = Graph()
     queue = deque()
-    queue.append(start)
+    queue.append(s)
+    res = []
+
+    for edge in edges:
+        graph.add_edge(edge[0], edge[1])
+
+    visited = {v: False for v in graph.vertex_set}
+
     while queue:
         v = queue.popleft()
-        if visited[v] != True:
+        if not visited[v]:
             visited[v] = True
-            print(v, end=" ")
-            adj_list = g.graph[v]
-            for adj_v in adj_list:
+            res.append(v)
+            for adj_v in graph.graph[v]:
                 queue.append(adj_v)
+    return res
 
 
-class MyTestCase(unittest.TestCase):
-    def test_bfs(self):
-        g = Graph()
-        g.add_edge(0, 1)
-        g.add_edge(0, 2)
-        g.add_edge(1, 2)
-        g.add_edge(2, 0)
-        g.add_edge(2, 3)
-        g.add_edge(3, 3)
-        print("\n bfs : ")
-        get_bfs(g, 2)
-        expected = "2 0 3 1"
-        actual = "2 0 3 1"
-
-
-if __name__ == '__main__':
-    unittest.main()
+expected = [2, 0, 3, 1]
+actual = bfs([[0, 1], [0, 2], [1, 2], [2, 0], [2, 3], [3, 3]], 2)
+print(expected == actual)

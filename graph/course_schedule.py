@@ -17,14 +17,16 @@ if node v is being visited, then mark it as -1. If we find a vertex marked as -1
 if node v has been visited, then mark it as 1. If a vertex was marked as 1, then no ring contains v or its successors.
 comp: O(V+E)
 """
-from gfg_top10.graph.Graph import Graph
+from graph.graph_class import Graph
 
 
-def can_finish(num_courses, prereq):
-    visited = {v: 0 for v in range(num_courses)}
+def can_finish(prereq):
     graph = Graph()
+
     for i, j in prereq:
         graph.add_edge(i, j)
+
+    visited = {v: 0 for v in graph.vertex_set}
 
     def dfs(v):
         if visited[v] == -1:
@@ -38,16 +40,16 @@ def can_finish(num_courses, prereq):
         visited[v] = 1
         return True
 
-    for i in range(num_courses):
-        if not dfs(i):
+    for v in graph.vertex_set:
+        if not dfs(v):
             return False
     return True
 
 
 expected = True
-actual = can_finish(2, [[1, 0]])
+actual = can_finish([[1, 0]])
 print(expected == actual)
 
 expected = False
-actual = can_finish(2, [[1, 0], [0, 1]])
+actual = can_finish([[1, 0], [0, 1]])
 print(expected == actual)
