@@ -1,9 +1,9 @@
-import collections
+from collections import defaultdict
 
 
 class Graph:
     def __init__(self):
-        self.graph = collections.defaultdict(list)
+        self.graph = defaultdict(list)
         self.vertex_set = set()
 
     def add_edge(self, u, v):
