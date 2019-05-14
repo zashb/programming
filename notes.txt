@@ -62,8 +62,12 @@ LOGISTIC
 - hyperparameters: C (varies inversely as alpha)
 - unknown parameters are estimated by maximum likelihood: L = pie(1 to n) (pi**yi * (1-pi)**(1-yi)), likelihood and joint probability go together
 - likelihood intuition: if we compare likelihood function of 2 points and find that L(theta1|x) > L(theta2|x) then the sample we observed is more likely to have occurred if theta=theta1 than if theta=theta2
-- logistic transformation: log(p/(1-p)) = b0+(x*b)
+- logistic function/sigmoid: log(p/(1-p)) = b0+(x*b)
+- S-shaped. (y-axis: (0,1) x-axis: (-inf,+inf))
 - sensitive to scaling
+- negative log-likelihood:
+    - log converts multiplication in likelihood to sum
+    - negative converts maximization prob to minimization prob
 - Because logistic regression predicts probabilities, rather than just classes, we can fit it using likelihood
 - https://www.stat.rutgers.edu/home/pingli/papers/Logit.pdf
 - Entropy is a measure of the uncertainty associated with a given distribution q(y).
@@ -202,10 +206,14 @@ MODEL EVALUATION
 MLE
 - answers the question - what value of x best explains the observed value, y.
 - find the value of x that maximizes p(y|x)
+- approximates maximization of expected log likelihood
+- expected log likelihood maximized by true distribution
+- approximation poor on small data sets
 
 MAP
 - answers the question - what is the best possible value of x given the fact that the observation has a value y.
 - find the value of x that maximizes p(x|y).
+- similar problems as MLE
 
 CRF
 - logistic regression is a log-linear model for classification, CRFs are a log-linear model for sequential labels
@@ -220,3 +228,23 @@ Value At Risk(VAR)
 Conditional VAR
 - estimate the tail risk of an investment.
 - Used as an extension to VaR, the conditional VaR estimates the likelihood, with a particular degree of confidence, that there will be a break in the VaR; it seeks to assess what happens to an investment exceeding its maximum loss threshold. This measure is more susceptible to events that happen in the tail end of distribution – the tail risk. For illustration, a risk manager thinks the average loss on an investment is $10 million for the worst 1 per cent of potential outcomes for a portfolio. Therefore, the conditional VaR, or anticipated shortfall, is $10 million for the 1 per cent tail.
+
+Posterior
+- https://www.investopedia.com/terms/p/posterior-probability.asp
+- revised or updated probability of an event occurring after taking into consideration new information
+- calculated by updating the prior probability using Bayes' theorem
+- P(B|A)
+
+Prior
+- probability of an event before new data is collected
+- prior + evidence -> posterior
+- if posterior has the same form as prior, we say: prior is conjugate relative to likelihood
+
+Prob Density Function v/s Distribution Function
+- https://math.stackexchange.com/questions/175850/difference-between-probability-density-function-and-probability-distribution
+
+Linear Discriminant Analysis
+- similar to PCA (reduces dimensions) but focuses on maximizes seperability among classes
+- projects data onto new axis to maximize separation of 2 classes
+- new axis is created by: maximizing distance between means; minimizing variation within each category
+- for >2 classes, find a central point and maximize distances from each mean to the central point while minimizing variation within each class
