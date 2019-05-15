@@ -6,10 +6,11 @@ comp:
 
 
 def house_robber(arr):
-    if not arr:
-        return arr
+    arr2 = arr.copy()
+    if not arr2:
+        return arr2
     prev1, prev2 = 0, 0
-    for i in arr:
+    for i in arr2:
         prev1, prev2 = max(prev1, prev2 + i), prev1
     return prev1
 
