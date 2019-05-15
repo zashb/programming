@@ -1,27 +1,4 @@
-import unittest
-
-
-class Node:
-    def __init__(self, val):
-        self.val = val
-        self.left = None
-        self.right = None
-
-
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        root = Node(5)
-        root.left = Node(-10)
-        root.right = Node(3)
-        root.left.left = Node(9)
-        root.left.right = Node(8)
-        root.right.left = Node(-4)
-        root.right.right = Node(7)
-        target_sum = 7
-        actual = pathSum(root, target_sum)
-        print("count_of_subtrees_with_sum {} : {}".format(target_sum, actual))
-        actual = count_subtrees_with_sum(root, target_sum, 0, {})
-        print("count_of_subtrees_with_sum {} : {}".format(target_sum, actual))
+from tree.tree_class import TreeNode
 
 
 def pathSum(root, sum):
@@ -64,5 +41,15 @@ def increment_path_count(path_count, key, delta):
     return path_count
 
 
-if __name__ == '__main__':
-    unittest.main()
+root = TreeNode(5)
+root.left = TreeNode(-10)
+root.right = TreeNode(3)
+root.left.left = TreeNode(9)
+root.left.right = TreeNode(8)
+root.right.left = TreeNode(-4)
+root.right.right = TreeNode(7)
+target_sum = 7
+actual = pathSum(root, target_sum)
+print("count_of_subtrees_with_sum {} : {}".format(target_sum, actual))
+actual = count_subtrees_with_sum(root, target_sum, 0, {})
+print("count_of_subtrees_with_sum {} : {}".format(target_sum, actual))

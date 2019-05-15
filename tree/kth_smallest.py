@@ -3,7 +3,7 @@ prob: find kth smallest val in BST
 idea: stack
 comp: O(n)
 """
-from prgcrk.tree.tree_node import Tree_Node
+from tree.tree_class import TreeNode
 
 
 def k_small(root, k):
@@ -22,7 +22,7 @@ def k_small(root, k):
 
 
 def insert(root, val):
-    node = Tree_Node(val)
+    node = TreeNode(val)
     if not root:
         root = node
     elif val > root.val:
@@ -37,14 +37,14 @@ def insert(root, val):
             insert(root.left, val)
 
 
-root = Tree_Node(3)
+root = TreeNode(3)
 for i in [1, 4, 2]:
     insert(root, i)
 expected = 1
 actual = k_small(root, 1)
 print(expected == actual)
 
-root = Tree_Node(5)
+root = TreeNode(5)
 for i in [1, 4, 2, 3, 5, 6]:
     insert(root, i)
 expected = 3

@@ -4,14 +4,11 @@ import unittest
 
 # https://www.cs.cmu.edu/~adamchik/15-121/lectures/Trees/trees.html
 # https://www.geeksforgeeks.org/complexity-different-operations-binary-tree-binary-search-tree-avl-tree/
-class Node:
-    def __init__(self, val):
-        self.val = val
-        self.left = None
-        self.right = None
-
 
 # O(h)
+from tree.tree_class import TreeNode
+
+
 def insert(root, new_node):
     # recursion without return
     if root is None:
@@ -60,23 +57,17 @@ def get_inorder(root):
         get_inorder(root.right)
 
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        r = Node(50)
-        # insert() includes root as arg
-        insert(r, Node(30))
-        insert(r, Node(20))
-        insert(r, Node(40))
-        insert(r, Node(70))
-        insert(r, Node(60))
-        insert(r, Node(80))
-        print("\nis bst : {}".format(is_bst(r)))
-        print("inorder ", end=":")
-        get_inorder(r)
-        for i in [30, 300]:
-            actual = True if search(r, i) else False
-            print("\nsearch for {} : {}".format(i, actual))
-
-
-if __name__ == '__main__':
-    unittest.main()
+r = TreeNode(50)
+# insert() includes root as arg
+insert(r, TreeNode(30))
+insert(r, TreeNode(20))
+insert(r, TreeNode(40))
+insert(r, TreeNode(70))
+insert(r, TreeNode(60))
+insert(r, TreeNode(80))
+print("is bst : {}".format(is_bst(r)))
+print("inorder: ")
+get_inorder(r)
+for i in [30, 300]:
+    actual = True if search(r, i) else False
+    print("search for {} : {}".format(i, actual))
