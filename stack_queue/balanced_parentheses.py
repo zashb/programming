@@ -15,13 +15,10 @@ def is_bal_paren(string):
     return not stack
 
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        string = "{()}[]"
-        self.assertTrue(is_bal_paren(string))
-        string = "{()}]"
-        self.assertFalse(is_bal_paren(string))
+expected = True
+actual = is_bal_paren("{()}[]")
+print(expected == actual)
 
-
-if __name__ == '__main__':
-    unittest.main()
+expected = False
+actual = is_bal_paren("{()}]")
+print(expected == actual)

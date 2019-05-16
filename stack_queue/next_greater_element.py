@@ -1,6 +1,3 @@
-import unittest
-
-
 def get_nge(nums):
     n = len(nums)
     for i in range(n):
@@ -12,7 +9,9 @@ def get_nge(nums):
         print("nge of {} is {}".format(nums[i], nge))
 
 
-class Test(unittest.TestCase):
-    def test_get_nge(self):
-        nums = [11, 13, 21, 3]
-        get_nge(nums)
+nums = [11, 13, 21, 3]
+actual = get_nge(nums)
+expected = """nge of 11 is 13
+nge of 13 is 21
+nge of 21 is -1
+nge of 3 is -1"""
