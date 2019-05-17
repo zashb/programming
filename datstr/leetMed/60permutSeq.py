@@ -16,7 +16,7 @@
 #         k -= idx * fact[n - i]
 #     return sb
 
-import math
+import math_prob
 
 
 def permutSeq(n, k):
@@ -26,8 +26,8 @@ def permutSeq(n, k):
     while n > 0:
         n -= 1
         # get the index of current digit
-        # index, k = divmod(k, math.factorial(n))
-        index, k = k // math.factorial(n), k % math.factorial(n)
+        # index, k = divmod(k, math_prob.factorial(n))
+        index, k = k // math_prob.factorial(n), k % math_prob.factorial(n)
         permutation += str(numbers[index])
         # remove handled number
         numbers.remove(numbers[index])

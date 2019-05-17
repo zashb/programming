@@ -1,6 +1,6 @@
 # Logistic Regression on Diabetes Dataset
 from csv import reader
-from math import exp
+from math_prob import exp
 from random import randrange
 from random import seed
 

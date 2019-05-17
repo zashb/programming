@@ -1,7 +1,7 @@
 # Example of kNN implemented from Scratch in Python
 
 import csv
-import math
+import math_prob
 import operator
 import random
 
@@ -23,7 +23,7 @@ def euclideanDistance(instance1, instance2, length):
     distance = 0
     for x in range(length):
         distance += pow((instance1[x] - instance2[x]), 2)
-    return math.sqrt(distance)
+    return math_prob.sqrt(distance)
 
 
 def getNeighbors(trainingSet, testInstance, k):

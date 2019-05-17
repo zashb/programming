@@ -1,5 +1,5 @@
 import logging
-import math
+import math_prob
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -83,7 +83,7 @@ def forecast_base(df, gr):
     trainPredict = scaler.inverse_transform(trainPredict)
     trainY = scaler.inverse_transform([trainY])
     testPredict = scaler.inverse_transform(testPredict)
-    trainScore = math.sqrt(mean_squared_error(trainY[0], trainPredict[:, 0]))
+    trainScore = math_prob.sqrt(mean_squared_error(trainY[0], trainPredict[:, 0]))
     print('Train Score: %.2f RMSE' % (trainScore))
     trainPredictPlot = np.empty_like(dataset)
     trainPredictPlot[:, :] = np.nan

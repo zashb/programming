@@ -1,6 +1,6 @@
 """
 prob : average from data stream
-idea : math
+idea : math_prob
 comp : O(n)
 """
 
