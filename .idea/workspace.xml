@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de9855fa-b9c0-4648-9455-b0eb73cdaea8" name="Default Changelist" comment="prgcrk - minor edits">
+      <change beforePath="$PROJECT_DIR$/ctci/One.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/Runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/Two.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/arrays_strings/check_permutation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/arrays_strings/is_unique.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/arrays_strings/one_edit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/arrays_strings/palindrome_permutation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/arrays_strings/rotate_matrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/arrays_strings/string_compression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/arrays_strings/urlify.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/bit/bin_to_str.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/bit/insertion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/database/student_enrollment.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/recursion_dynamicprogramming/get_all_pal_lessthan_n.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/recursion_dynamicprogramming/magic_index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/recursion_dynamicprogramming/robot_grid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/recursion_dynamicprogramming/triple_step.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/sort_search/binary_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/sort_search/merge_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/sort_search/peaks_valleys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/sort_search/search_rot_sort_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/sort_search/sorted_anagrams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/sort_search/sorted_merge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/stack_queue/queue/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctci/v1/stack_queue/queue/queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/.idea/dataStruct.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/.idea/dictionaries/SG0222350.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/.idea/libraries/R_User_Library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/.vscode/.ropeproject/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/.vscode/.ropeproject/objectdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/goodrich/5/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/goodrich/5/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/goodrich/6/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/goodrich/6/arrayQueue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/goodrich/6/arrayStack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/goodrich/7/circularQueue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/goodrich/7/linkedQueue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/goodrich/7/linkedStack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/goodrich/8/tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/kernel-86eebec3-4922-4c87-b41c-0c2026f537d5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/0_backtracking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/11cntnrWthMstWtr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/15_3sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/16_3sumClosest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/17ltrCombPhnNum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/18_4sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/19remNthNodeEOL.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/22genParen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/24swapNodePairs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/2addTwoLists.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/31nextPerm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/34srchRng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/48rotMat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/49grpAnag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/54spiralMat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/55jumpGame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/56mergInterv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/5lngstPalSubstr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/60permutSeq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/leetMed/6zigzag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/misc/wordCount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/jav/Main_1_revWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/jav/Main_1_revWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/jav/Main_1_rotArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/jav/main_1_rotArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/10_3sumClosest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/12mergeSortedArrs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/13validParen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/14lngstValPar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/15minSizSubarrSum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/16srchInsPos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/17lngstConsecSeq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/18validPal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/19zigzag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/1rotArr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/22triangle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/24contDups_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/25moveZeros.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/28lngstSubstrWithAtmostKDistChar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/29minWinSubstr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/2revPolNot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/35bullsCows.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/36largRectHist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/37longCommPref.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/38largstNum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/39simplifyPath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/3isomStr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/44pascTrian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/45containMostWater.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/46countAndSay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/47searchForRange.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/49groupAnagrams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/4wordLadder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/50shortestPal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/51rectangleArea.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/52summaryRanges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/53incTripletSubseq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/55revVowels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/57missingNumber.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/59topKFreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/5medSortArrs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/60findPeakElem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/61wordPattern.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/62hIndex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/63palindromPairs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/64oneEditDistance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/67intToEnglish.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/69removeInvalidParen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/6wildcardMatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/70intersectionTwoArrays.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/71slidingWindowMaxMed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/7mergeInterval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/1string/py/_radixsort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/2matrix/1setMatZero.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/2matrix/2spiralMat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/2matrix/4rotateImg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/3linkedList/13revLinkedList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/3linkedList/_getMiddle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/6sorting/1mergeSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/6sorting/2quickSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/6sorting/3insertionSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/6sorting/toRem.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/9perm_comb/3permSeq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/prgcrk/9perm_comb/4genParen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/probs/3linkedList/nthNodeFromEnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/probs/4stacks/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/probs/5queues/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/probs/6trees/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/temp/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/temp/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/temp/2fe5c11a20114c8f8279ec44d4fd6db7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/temp/df_prep.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/temp/gaston_grps.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/temp/international-airline-passengers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/temp1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/3sumClosest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/bullsAndCows.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/candy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/containerWithMostWater.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/countAndSay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/gasStation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/groupAnagrams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/hIndex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/hard/longestValidParen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/hard/maxOfMins.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/hard/medianOf2SortedArr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/hard/minWindSubstr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/hard/wildcardMatching.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/hard/wordLadder..py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/intToEngWords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/intersecnOf2Arrs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/inversionCount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/isomorphic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/kthLargest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/largestNum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/largestRectArea.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/lngstSubstrWthtRepChar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/majorityElem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/medianOf2SortedArrs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/mergeIntervals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/mergeSortedArrs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/mf/substrWithConcatAllWrds.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/minSizeSubarrSum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/nextGreater.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/numOfNumGreaterThanCurrNum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/palindPairs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/rectangleArea.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/revInt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/revPolNot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/reverseVowels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/reverseWords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/rotateArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/searchForRange.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/shortestPal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/slidingWindMax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/stockSpan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/summaryRanges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/trapRainWater.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/triangle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/validPal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/validParen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/11string/probs/zigzagConversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/LinkedList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/add2Nums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/counter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/cycle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/deleteDuplicates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/getMiddleElem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/isPal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/len.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/merge2sortedlists.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/nthNodeFromBeg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/nthNodeFromEnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/oddEvenList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/partitionList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/removeDupsList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/removeElemWithDups.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/reorderLinkedList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/reverseList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/searchElem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/3BasicDS/probs/sortedInsert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/5search_sort/Search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/5search_sort/Sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/5search_sort/probs/sortColors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/BinarySearchTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/BinaryTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/PriorityQueue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/kthSmallestBST.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/probs/easy/diameter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/probs/easy/invert_binTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/probs/easy/tilt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/probs/med/childrenSumProp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/probs/med/constTreeFromInorPreord.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/probs/med/findLeavesofBinTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/probs/med/flattenBinTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/probs/med/pre_in_post_level_traversals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/probs/minDepthofBinTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/probs/parseTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/probs/pathSum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/6Trees/probs/sortedArraytoBST.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/datstr1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/hckrnk.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/map.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/v3/notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datstr/walmart/countGreaterVals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/greedy/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/greedy/activity_selection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/greedy/job_scheduling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/greedy/min_platforms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/prefixmatch_slidingwindow/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/prefixmatch_slidingwindow/count_distinct_elements_in_win.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/prefixmatch_slidingwindow/equilibrium.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/prefixmatch_slidingwindow/max_sum_of_a_subarray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/prefixmatch_slidingwindow/subarray_with_given_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/string/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/string/all_possible_palindromic_partitions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/string/count_triplets_with_sum_smaller_than_given_value.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/string/power.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/string/rev_list_not_special_char.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg_top10/string/zigzag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intIO/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intIO/longest_continuous_subarr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intIO/max_continuous_subarr_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intIO/max_len_cont_subarr_equal01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intIO/max_prod_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intIO/meeting_room.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intIO/min_num_of_coins.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intIO/partition_arr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intIO/probs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intIO/string_rev.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/bfs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/bfs/word_ladder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/binary_search/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/binary_search/binary_search_impl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/binary_search/len_longest_inc_subarr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/binary_search/min_rot_sort_arr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/binary_search/search_insert_pos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/caching/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/caching/majority_elem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/hashmap/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/hashmap/isomorphic_strings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/hashmap/pal_pairs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/hashmap/valid_anagram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_with_k_rep_char.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/hashmap_tracking/longest_substr_without_repeat_char.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/hashset/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/candy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/container_most_water.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/current_average.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/insert_interval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/intersection_of_2_arrays.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/is_subsequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/merge_interval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/min_size_subarr_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/missing_ranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/move_zeros.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/one_edit_distance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/partition_labels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/prod_not_self.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/rem_dup_sort_arr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/rem_elem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/reverse_vowels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/shortest_word_distance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/pointers/summary_ranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/subarray/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/subarray/max_size_subarr_sum_equals_k.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/subarray/max_subarr_prod.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/subarray/num_subarr_sum_equals_k.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/array_string/subarray/two_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/dfs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/dfs/lexical_order.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/dfs/wildcard_match.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/dfs/word_pattern.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/matrix/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgcrk/matrix/search_matrix.py" beforeDir="false" />
+    </list>
+    <list id="ed0e0b5d-45fd-40d5-be92-d6541e19b757" name="local_files" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/other/ctci/v1/recursion_dynamicprogramming/robot_grid.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>maxProdSubArray</find>
+      <find>len</find>
+      <find>BinTree</find>
+      <find>s.</find>
+      <find>True</find>
+      <find>permu</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>max_prod_subarr</replace>
+      <replace>len_</replace>
+      <replace>TreeNode</replace>
+      <replace>1</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dp/house_robber.py" />
+        <option value="$PROJECT_DIR$/dp/word_break.py" />
+        <option value="$PROJECT_DIR$/datstr/v3/8DP/probs/palParti.py" />
+        <option value="$PROJECT_DIR$/dp/maxSubArray.py" />
+        <option value="$PROJECT_DIR$/dp/pal_partition.py" />
+        <option value="$PROJECT_DIR$/dp/max_prod_subarr.py" />
+        <option value="$PROJECT_DIR$/stack_queue/balanced_parentheses.py" />
+        <option value="$PROJECT_DIR$/stack_queue/next_greater_element.py" />
+        <option value="$PROJECT_DIR$/stack_queue/stock_span.py" />
+        <option value="$PROJECT_DIR$/stack_queue/longest_abs_file_path.py" />
+        <option value="$PROJECT_DIR$/stack_queue/len_longest_abs_file_path.py" />
+        <option value="$PROJECT_DIR$/tree/AllPaths.py" />
+        <option value="$PROJECT_DIR$/tree/all_paths_from_root.py" />
+        <option value="$PROJECT_DIR$/tree/constructStrFromBinTree.py" />
+        <option value="$PROJECT_DIR$/tree/countLeaves.py" />
+        <option value="$PROJECT_DIR$/tree/hasPathSum.py" />
+        <option value="$PROJECT_DIR$/tree/treeSize.py" />
+        <option value="$PROJECT_DIR$/tree/sameTree.py" />
+        <option value="$PROJECT_DIR$/math/1revInt.py" />
+        <option value="$PROJECT_DIR$/math/reverse_int.py" />
+        <option value="$PROJECT_DIR$/math/11countPrimes.py" />
+        <option value="$PROJECT_DIR$/math/count_primes.py" />
+        <option value="$PROJECT_DIR$/math_prob/count_primes.py" />
+        <option value="$PROJECT_DIR$/math_prob/gcd_lcm.py" />
+        <option value="$PROJECT_DIR$/math_prob/2palInt.py" />
+        <option value="$PROJECT_DIR$/math_prob/reverse_int.py" />
+        <option value="$PROJECT_DIR$/math_prob/4_5subsets.py" />
+        <option value="$PROJECT_DIR$/datstr/v3/9PermComb/probs/permutations.py" />
+        <option value="$PROJECT_DIR$/math_prob/all_permutations.py" />
+        <option value="$PROJECT_DIR$/math_prob/all_subsets.py" />
+        <option value="$PROJECT_DIR$/math_prob/10happyNum.py" />
+        <option value="$PROJECT_DIR$/math_prob/9factTrailZeros.py" />
+        <option value="$PROJECT_DIR$/math_prob/trail_zero_count_n_fact.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'local_files'; set:local_files; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="prgcrk" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="array_string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="binary_search" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="programming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/github/programming" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="tree" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programming" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tree" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tree" />
+      <recent name="$PROJECT_DIR$/linked_list" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/other" />
+      <recent name="$PROJECT_DIR$/math_prob" />
+      <recent name="$PROJECT_DIR$/math" />
+      <recent name="$PROJECT_DIR$/tree" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.integerBreak">
+    <configuration name="10happyNum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_prob" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_prob/is_happy_num.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4_5subsets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_prob" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_prob/all_subsets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9factTrailZeros" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_prob" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_prob/trail_zero_count_n_fact.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="all_permutations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_prob" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_prob/all_permutations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="integerBreak" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_prob" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_prob/integerBreak.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.integerBreak" />
+        <item itemvalue="Python.9factTrailZeros" />
+        <item itemvalue="Python.10happyNum" />
+        <item itemvalue="Python.4_5subsets" />
+        <item itemvalue="Python.all_permutations" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de9855fa-b9c0-4648-9455-b0eb73cdaea8" name="Default Changelist" comment="prgcrk - minor edits" />
+      <created>1558091633181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558091633181</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_next_greater_element_py - 2019.05.16 at 07h 40m 16s.xml">
+      <configuration name="Unittests in next_greater_element.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_gcd_lcm_py - 2019.05.17 at 06h 22m 52s.xml">
+      <configuration name="Unittests in gcd_lcm.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="977" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21820374" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32946634" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.22737819" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4996986" weight="0.39907193" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.2587007" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32946634" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50030136" side_tool="true" weight="0.39907193" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32946634" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>curr_elem[::-1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ctci/v1/stack_queue/stack/next_greatest_element.py" />
+    <entry file="file://$PROJECT_DIR$/ctci/v1/stack_queue/stack/next_greatest_freq_element.py" />
+    <entry file="file://$PROJECT_DIR$/stack_queue/stack_min.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/datstr/probs/4stacks/1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack_queue/len_longest_abs_file_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/datstr/v3/6Trees/BinarySearchTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/datstr/v3/6Trees/BinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/constructStrFromBinTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/countLeaves.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/paths_sum_misc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/hasPathSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/isBalanced.py" />
+    <entry file="file://$PROJECT_DIR$/tree/is_balanced.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/treeSize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/datstr/v3/6Trees/probs/med/childrenSumProp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/datstr/v3/6Trees/probs/med/constTreeFromInorPreord.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/datstr/v3/6Trees/probs/med/findLeavesofBinTree.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/datstr/v3/6Trees/probs/med/flattenBinTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/datstr/v3/6Trees/probs/med/pre_in_post_level_traversals.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/datstr/v3/6Trees/probs/parseTree.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/datstr/v3/6Trees/probs/pathSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/sameTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/all_paths_from_root.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datstr/prgcrk/10math/toRem.txt" />
+    <entry file="file://$PROJECT_DIR$/math/reverseInteger.py" />
+    <entry file="file://$PROJECT_DIR$/linked_list/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math/countPrimes.py" />
+    <entry file="file://$PROJECT_DIR$/math_prob/2palInt.py" />
+    <entry file="file://$PROJECT_DIR$/math_prob/allSubsets.py" />
+    <entry file="file://$PROJECT_DIR$/datstr/v3/9PermComb/probs/permutations.py" />
+    <entry file="file://$PROJECT_DIR$/ctci/v1/recursion_dynamicprogramming/powerset.py" />
+    <entry file="file://$PROJECT_DIR$/datstr/prgcrk/9perm_comb/1_2perm.py" />
+    <entry file="file://$PROJECT_DIR$/ctci/v1/recursion_dynamicprogramming/permutations.py" />
+    <entry file="file://$PROJECT_DIR$/math_prob/happyNum.py" />
+    <entry file="file://$PROJECT_DIR$/math_prob/pow2.py" />
+    <entry file="file://$PROJECT_DIR$/math_prob/pow3.py" />
+    <entry file="file://$PROJECT_DIR$/math_prob/powXN.py" />
+    <entry file="file://$PROJECT_DIR$/knn.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_prob/reverse_int.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_prob/all_subsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="203" selection-start-line="184" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_prob/all_permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_prob/is_happy_num.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="25" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_prob/trail_zero_count_n_fact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_prob/integerBreak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_prob/pow_implementation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_prob/is_prime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_prob/count_primes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_prob/gcd_lcm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/bst_intro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/ctci/v1/recursion_dynamicprogramming/robot_grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
