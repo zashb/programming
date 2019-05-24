@@ -23,13 +23,13 @@ def pal_part(s):
     return res
 
 
-# expected = ['a', 'a', 'b', 'aa']
-# actual = pal_part('aab')
-# print(expected == actual)
-#
-# expected = ['n', 'i', 't', 'i', 'n', 'iti', 'nitin']
-# actual = pal_part('nitin')
-# print(expected == actual)
+expected = ['a', 'a', 'b', 'aa']
+actual = pal_part('aab')
+print(expected == actual)
+
+expected = ['n', 'i', 't', 'i', 'n', 'iti', 'nitin']
+actual = pal_part('nitin')
+print(expected == actual)
 
 
 
