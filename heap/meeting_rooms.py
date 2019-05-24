@@ -18,6 +18,23 @@ def can_attend_all_meetings(arr):
     return True
 
 
+def printMaxActivities(arr):
+    sorted_arr = sorted(arr, key=lambda x: x[1])
+    s, f = [], []
+    for i in sorted_arr:
+        s.append(i[0])
+        f.append(i[1])
+    i = 0
+    print(i, )
+    for j in range(len(f)):
+        if s[j] >= f[i]:
+            print(j, )
+            i = j
+
+
 expected = False
 actual = can_attend_all_meetings([[0, 30], [5, 10], [15, 20]])
 print(expected == actual)
+
+expected = [0, 1]
+printMaxActivities([[0, 30], [5, 10], [15, 20]])
