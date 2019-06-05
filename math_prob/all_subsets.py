@@ -9,19 +9,18 @@ Com : O(2 ^ n)
 
 
 def all_subsets(nums):
-    res = []
-    backtrack(res=res, tmp=[], nums=nums, startIdx=0)
+    def backtrack(res, tmp, nums, startIdx):
+        res.append(tmp[:])
+        for i in range(startIdx, len(nums)):
+            if i > startIdx and nums[i] == nums[i - 1]:
+                continue
+            tmp.append(nums[i])
+            backtrack(res=res, tmp=tmp, nums=nums, startIdx=i + 1)
+            tmp.pop()
+
+    res, temp, startIdx = [], [], 0
+    backtrack(res, temp, nums, startIdx)
     return res
-
-
-def backtrack(res, tmp, nums, startIdx):
-    res.append(tmp[:])
-    for i in range(startIdx, len(nums)):
-        if i > startIdx and nums[i] == nums[i - 1]:
-            continue
-        tmp.append(nums[i])
-        backtrack(res=res, tmp=tmp, nums=nums, startIdx=i + 1)
-        tmp.pop()
 
 
 # def main(nums):

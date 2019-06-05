@@ -3,17 +3,35 @@ Idea : BT
 Com : O(n*n!)
 """
 
+# def all_perm(nums):
+#     ans = [[]]
+#     for n in nums:
+#         new_ans = []
+#         for l in ans:
+#             for i in range(len(l) + 1):
+#                 new_ans.append(l[:i] + [n] + l[i:])
+#                 if i < len(l) and l[i] == n:
+#                     break  # handles duplication
+#         ans = new_ans
+#     return ans
+
+from collections import Counter
+
 
 def all_perm(nums):
-    ans = [[]]
-    for n in nums:
-        new_ans = []
-        for l in ans:
-            for i in range(len(l) + 1):
-                new_ans.append(l[:i] + [n] + l[i:])
-                if i < len(l) and l[i] == n:
-                    break  # handles duplication
-        ans = new_ans
+    def btrack(ans, path, counter):
+        if len(path) == len(nums):
+            ans.append(path[:])
+        for x in counter:  # dont pick duplicates
+            if counter[x] > 0:
+                path.append(x)
+                counter[x] -= 1
+                btrack(ans, path, counter)
+                path.pop()
+                counter[x] += 1
+
+    ans, temp = [],[]
+    btrack(ans, temp, Counter(nums))
     return ans
 
 
