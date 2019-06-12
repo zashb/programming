@@ -3,7 +3,7 @@ prob: find kth smallest val in BST
 idea: stack
 comp: O(n)
 """
-from tree.tree_class import TreeNode
+from tree.bintree_class import TreeNode
 
 
 def k_small(root, k):

@@ -1,4 +1,4 @@
-from tree.tree_class import TreeNode
+from tree.bintree_class import TreeNode
 
 
 def getAllPaths(root):
