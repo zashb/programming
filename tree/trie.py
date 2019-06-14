@@ -1,3 +1,9 @@
+"""
+comp: O(m) for insert, search, starts_with; m=key length
+applications: autocomplete, spell checker, IP routing, T9, solving word games
+"""
+
+
 class TrieNode:
     def __init__(self):
         self.children = dict()
@@ -10,26 +16,26 @@ class Trie:
 
     def insert(self, word):
         node = self.root
-        for i in word:
-            if i not in node.children:
-                node.children[i] = TrieNode()
-            node = node.children[i]
+        for char in word:
+            if char not in node.children:
+                node.children[char] = TrieNode()
+            node = node.children[char]
         node.word = True
 
     def search(self, word):
         node = self.root
-        for i in word:
-            if i not in node.children:
+        for char in word:
+            if char not in node.children:
                 return False
-            node = node.children[i]
+            node = node.children[char]
         return node.word
 
     def starts_with(self, prefix):
         node = self.root
-        for i in prefix:
-            if i not in node.children:
+        for char in prefix:
+            if char not in node.children:
                 return False
-            node = node.children[i]
+            node = node.children[char]
         return True
 
 
