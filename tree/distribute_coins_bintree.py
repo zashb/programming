@@ -7,7 +7,9 @@ comp: O(N), n=#nodes
 """
 
 
-from bintree_class import TreeNode
+from tree.bintree_class import TreeNode
+# from bintree_class import TreeNode
+
 
 
 def distributeCoins(root, pre=None):
