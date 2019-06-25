@@ -28,9 +28,9 @@ def level_order(root):
     queue = deque()
     queue.append(root)
     while queue:
-        next = queue.popleft()
-        print(next.val)
-        if next.left:
-            queue.append(next.left)
-        if next.right:
-            queue.append(next.right)
+        node = queue.popleft()
+        print(node.val)
+        if node.left:
+            queue.append(node.left)
+        if node.right:
+            queue.append(node.right)

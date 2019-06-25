@@ -28,18 +28,16 @@ def insert(root, new_node):
 
 # comp: time-O(n), space-O(1) if Function Call Stack size is not considered, otherwise O(n)
 def is_bst(root):
-    return is_bst_util(root, -1 * sys.maxsize, sys.maxsize)
-
-
-def is_bst_util(node, minv, maxv):
-    if node is None:
-        return True
-    if node.val < minv or node.val > maxv:
-        return False
-    # key steps
-    util_left = is_bst_util(node.left, minv, node.val - 1)
-    util_right = is_bst_util(node.right, node.val + 1, maxv)
-    return util_left and util_right
+    def is_bst_util(node, minv, maxv):
+        if node is None:
+            return True
+        if node.val < minv or node.val > maxv:
+            return False
+        # key steps
+        util_left = is_bst_util(node.left, minv, node.val - 1)
+        util_right = is_bst_util(node.right, node.val + 1, maxv)
+        return util_left and util_right
+    return is_bst_util(root, float('-inf'), float('inf'))
 
 
 def search(root, val):
