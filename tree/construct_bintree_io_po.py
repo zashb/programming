@@ -12,7 +12,7 @@ Return the following binary tree:
 comp: O(N)
 """
 
-from tree.bintree_class import TreeNode
+from bintree_class import TreeNode
 # from bintree_class import TreeNode
 
 

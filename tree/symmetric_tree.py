@@ -18,7 +18,7 @@ comp: O(n)
 """
 from collections import deque
 
-from tree.bintree_class import TreeNode
+from bintree_class import TreeNode
 
 
 def is_symmetric(root):

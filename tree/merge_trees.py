@@ -19,7 +19,7 @@ Merged tree:
 idea: recursion
 comp: O(m)
 """
-from tree.bintree_class import TreeNode
+from bintree_class import TreeNode
 
 
 def merge_trees(n1, n2):

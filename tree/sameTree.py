@@ -1,4 +1,4 @@
-from tree.bintree_class import TreeNode
+from bintree_class import TreeNode
 
 
 def areIdenticalTrees(a, b):

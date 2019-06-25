@@ -1,4 +1,4 @@
-from tree.bintree_class import TreeNode
+from bintree_class import TreeNode
 
 
 def is_full_bt(root):

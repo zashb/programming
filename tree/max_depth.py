@@ -10,7 +10,7 @@ return its depth = 3.
 idea: stack
 comp: O(n)
 """
-from tree.bintree_class import TreeNode
+from bintree_class import TreeNode
 
 
 def get_max_depth(root):

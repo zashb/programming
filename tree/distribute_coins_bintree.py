@@ -7,7 +7,7 @@ comp: O(N), n=#nodes
 """
 
 
-from tree.bintree_class import TreeNode
+from bintree_class import TreeNode
 # from bintree_class import TreeNode
 
 

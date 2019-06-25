@@ -6,7 +6,7 @@ import unittest
 # https://www.geeksforgeeks.org/complexity-different-operations-binary-tree-binary-search-tree-avl-tree/
 
 # O(h)
-from tree.bintree_class import TreeNode
+from bintree_class import TreeNode
 
 
 def insert(root, new_node):
